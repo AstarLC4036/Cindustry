@@ -1,5 +1,6 @@
 package faanka.alc.Blocks;
 
+import arc.util.Log;
 import mindustry.Vars;
 import mindustry.gen.Building;
 import mindustry.world.blocks.power.PowerGenerator;
@@ -25,12 +26,16 @@ public class SolarTower extends PowerGenerator {
             {
                 for(int dy = -searchRange; dx < searchRange; dy++)
                 {
-                    Building build = Vars.world.build(dx, dy);
-                    if(!(build instanceof SolarNode.SolarNodeBuild validBuild) || connectedCount >= maxConnectCount || (((SolarNode) build.block).connectedTower) != null) continue;
-                    connectedCount += 1;
-                    ((SolarNode)validBuild.block).connectedTower = SolarTower.this;
+                    Building build = Vars.world.build(tileX() + dx, tileY() + dy);
+                    if((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode) build.block).connectedTower == null)
+                    {
+                        Log.info("Detected a new avalible node.");
+                        SolarNode.SolarNodeBuild validBuild = (SolarNode.SolarNodeBuild)build;
+                        connectedCount += 1;
+                        ((SolarNode)validBuild.block).connectedTower = SolarTower.this;
 
-                    needUpdate = true;
+                        needUpdate = true;
+                    }
                 }
             }
 
