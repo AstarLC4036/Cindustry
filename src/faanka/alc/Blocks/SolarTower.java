@@ -22,6 +22,7 @@ public class SolarTower extends PowerGenerator {
         @Override
         public void updateTile()
         {
+            Log.info("solar tower update tile");
             for (int dx = -searchRange; dx < searchRange; dx++)
             {
                 for(int dy = -searchRange; dx < searchRange; dy++)
