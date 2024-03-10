@@ -25,12 +25,12 @@ public class SolarTower extends PowerGenerator {
         public void updateTile()
         {
             updateTileTimer += Time.delta;
-            if(updateTileTimer != 0.1)
+            if(updateTileTimer < 1000)
             {
                 return;
             }
 
-            Log.info("Update once");
+            Log.info("update once");
             for (int dx = -searchRange; dx < searchRange; dx++)
             {
                 for(int dy = -searchRange; dx < searchRange; dy++)
