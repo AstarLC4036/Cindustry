@@ -30,6 +30,7 @@ public class SolarTower extends PowerGenerator {
                 return;
             }
 
+            Log.info("Update once");
             for (int dx = -searchRange; dx < searchRange; dx++)
             {
                 for(int dy = -searchRange; dx < searchRange; dy++)
