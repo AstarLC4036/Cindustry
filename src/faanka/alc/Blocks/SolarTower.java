@@ -15,7 +15,7 @@ public class SolarTower extends PowerGenerator {
         this.buildType = SolarTowerBuild::new;
     }
 
-    public class SolarTowerBuild extends Building
+    public class SolarTowerBuild extends GeneratorBuild
     {
         private boolean needUpdate = false;
         @Override
