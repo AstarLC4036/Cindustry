@@ -24,7 +24,7 @@ public class SolarTower extends PowerGenerator {
         @Override
         public void updateTile()
         {
-            updateTileTimer += Time.delta;
+            updateTileTimer += 1;
             if(updateTileTimer < 1000)
             {
                 return;
