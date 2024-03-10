@@ -6,7 +6,7 @@ import mindustry.gen.Building;
 import mindustry.world.blocks.power.PowerGenerator;
 
 public class SolarTower extends PowerGenerator {
-    public int maxConnectCount = 10;
+    public int maxConnectCount = 0;
     public int connectedCount = 0;
     public int searchRange = 0;
 
@@ -22,7 +22,6 @@ public class SolarTower extends PowerGenerator {
         @Override
         public void updateTile()
         {
-            Log.info("solar tower update tile");
             for (int dx = -searchRange; dx < searchRange; dx++)
             {
                 for(int dy = -searchRange; dx < searchRange; dy++)

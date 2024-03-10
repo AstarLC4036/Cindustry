@@ -23,6 +23,8 @@ public class CCBlocks {
             requirements(Category.power, ItemStack.with(Items.copper, 1));
             size = 2;
             powerProduction = 100;
+            maxConnectCount = 10;
+            searchRange = 4;
         }};
     }
 }
