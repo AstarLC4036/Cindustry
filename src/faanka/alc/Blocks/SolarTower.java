@@ -21,11 +21,40 @@ public class SolarTower extends PowerGenerator {
     {
         private boolean needUpdate = false;
         private float updateTileTimer = 0;
+
+        @Override
+        public void placed()
+        {
+            Log.info("placed");
+            Log.info(tileX() + " " + tileY());
+            for (int dx = -searchRange; dx < searchRange; dx++) {
+                for (int dy = -searchRange; dx < searchRange; dy++) {
+                    Building build = Vars.world.build(tileX() + dx, tileY() + dy);
+                    if ((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode) build.block).connectedTower == null) {
+                        Log.info("Detected a new avalible node.");
+                        SolarNode.SolarNodeBuild validBuild = (SolarNode.SolarNodeBuild) build;
+                        connectedCount += 1;
+                        ((SolarNode) validBuild.block).connectedTower = SolarTower.this;
+
+                        needUpdate = true;
+                    }
+                }
+            }
+        }
+
         @Override
         public void updateTile()
         {
+            if(needUpdate)
+            {
+                powerProduction *= connectedCount;
+                needUpdate = false;
+            }
+
+            /*
             updateTileTimer += 1;
-            if(updateTileTimer < 1000)
+
+            if(updateTileTimer < 10 * 60)
             {
                 return;
             }
@@ -49,12 +78,7 @@ public class SolarTower extends PowerGenerator {
             }
 
             updateTileTimer = 0;
-
-            if(needUpdate)
-            {
-                powerProduction *= connectedCount;
-                needUpdate = false;
-            }
+            */
         }
     }
 }
