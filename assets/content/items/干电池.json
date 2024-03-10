@@ -1,0 +1,14 @@
+{
+	"name": "干电池",
+	"description":"小巧且便于携带的电池，将其放入放电器中可以产生电力\n[red]注意：在一些特殊环境下它们很危险！"
+	"hardness": 2,
+	"cost":8,
+	"color": "25C9AB",
+	"healthScaling": 1.4,
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 1,
+	"flammability": 0.2,
+	"charge":2,
+	"research": "干电池制造厂"
+}

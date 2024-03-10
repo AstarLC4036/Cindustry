@@ -1,0 +1,25 @@
+{
+	"armor":5,
+	"payloadCapacity": 132,
+	"weapons":[
+		{
+			"name":"small-basic-weapon",
+			"reload":17,
+            "x":2.75,
+            "y":1,
+            "top":false,
+            "ejectEffect":"casing1",
+            "bullet":{
+            	"type":"BasicBulletType",
+            	"damage":11,
+            	"speed":2.5,
+            	"width":7,
+                "height":9,
+                "lifetime":60,
+                "shootEffect":"shootSmall",
+                "smokeEffect":"shootSmallSmoke",
+                "buildingDamageMultiplier":0.01
+            }
+		}
+	]
+}

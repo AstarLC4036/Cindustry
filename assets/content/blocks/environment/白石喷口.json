@@ -1,0 +1,9 @@
+{
+"name":"白石喷口",
+"type":"SteamVent",
+//"lightRadius": 5,
+//"lightColor": "A9D8FFFF",
+"attributes":{"steam":1,"heat":0.2,"spores":0,"water":2,"oil":0,},//地板属性
+"parent": "白石地板"
+"variants": 2
+}

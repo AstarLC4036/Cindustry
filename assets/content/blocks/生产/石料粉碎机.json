@@ -1,0 +1,50 @@
+{
+	"type": "Separator",
+	"health": 360,
+	"name": "石料粉碎机",
+	"description": "将石料进行粗处理以得到一些基础的矿物资源",
+	"results": [
+	{"item": "sand", "amount": 3},	
+	{"item": "盐", "amount": 1},
+	{"item": "scrap", "amount": 3},
+	],	
+	"craftEffect": "smeltsmoke",
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawRegion",
+				//这个type允许新增旋转贴图
+				//当然，旋转速度设为0也可以新增静态贴图
+				"suffix":"-r",
+				//"贴图后缀"
+				"rotateSpeed":4
+				//贴图旋转速度
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+			
+		]
+	},
+	"itemCapacity": 20,
+	"size": 2,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 40,
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "石料", "amount": 1 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 20 },
+	{ "item": "lead", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "化学工业"
+}

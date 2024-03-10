@@ -1,0 +1,71 @@
+{
+	"type": "GenericCrafter",
+	"name": "烷烃裂解室",
+	"description": "将烷(乙烷)和水蒸气快速的通入高压密封的反应室进行高温加热使其裂解以产生烯(乙烯)",
+	"health": 360,
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"outputLiquid": {"liquid": "烯", "amount": 0.1},
+	"itemCapacity": 14,
+	"size": 3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "烷",
+        "alpha": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "f6eed4",
+        "sides": 10,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "alpha": 0.7,
+        "color": "c4bdf3",
+        "glowIntensity": 0.3,
+        "glowScale": 6
+      }
+    ]
+  },
+	"craftEffect": "smeltsmoke",
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 180,
+	"consumes": {
+	"power": 3,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "烷", "amount": 0.2 },
+	{ "liquid": "water", "amount": 0.1 }     ]  },
+			},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "metaglass", "amount": 90},
+	{ "item": "silicon", "amount": 60 },
+	{"item": "铝","amount":75},
+	{ "item": "plastanium", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "石油分馏塔"
+}

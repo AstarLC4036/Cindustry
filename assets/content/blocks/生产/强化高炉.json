@@ -1,0 +1,43 @@
+{
+	"type": "GenericCrafter",
+	"name": "强化高炉",
+	"health": 240,
+	"description": "将盐熔化为熔融盐，需要比熔炉高3倍的电力才能让它正常工作",
+	"outputLiquid": {"liquid": "熔融盐", "amount": 0.2}, 
+	"itemCapacity": 14,
+	"size": 1,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-b"
+		},
+		{
+		"type":"DrawLiquidTile",
+		"drawLiquid":"熔融盐"
+		},
+		"DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"liquidCapacity": 60,
+	"craftTime": 120,
+	"consumes": {
+	"power": 4,
+	"items": {
+		"items": [
+	{ "item": "盐" "amount": 1}
+	]
+	}
+	}
+	"requirements": [
+	{ "item": "钨", "amount": 40 },
+	{ "item": "graphite", "amount": 70 },
+	{ "item": "铁", "amount": 50},
+	{ "item": "lead", "amount": 60},
+	],
+	"category": "crafting",
+	"research": "高炉"
+}

@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"health": 1,
+	"name": "铍C转E",
+	  "description": "把化学工业的铍转换成埃里克尔的铍 不需要电力 建造不需要任何的物品\n为了防止有人把它当墙用 血量设定为1",
+	"outputItem": {
+	"item": "beryllium", "amount": 1
+	},
+	"itemCapacity": 100,
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 1,
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "铍", "amount": 1 },
+	]	}	
+	}
+	"requirements": [
+	{ "item": "铍", "amount": 0 },
+	],
+	"category": "effect",
+	"alwaysUnlocked": true,
+}

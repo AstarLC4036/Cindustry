@@ -1,0 +1,13 @@
+{
+	"name": "铝",
+	"description": "一种相对活泼的金属元素，单质较为柔软，拥有不错的延展性，常用于高强度铝合金生产，单位和炮塔制造和爆炸混合物的生产",
+	"cost":1,
+	"color": "D3D3D3",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

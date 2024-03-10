@@ -1,0 +1,14 @@
+{
+	"name": "锗",
+	"description": "一种准金属，广泛用于半导体材料的生产制造",	
+	"details":"虽说广泛应用与半导体生产，但实际上（指现实）它并没有硅适合做半导体",
+	"cost":1,
+	"color": "202020",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

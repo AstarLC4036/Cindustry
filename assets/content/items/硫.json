@@ -1,0 +1,13 @@
+{
+	"name": "硫",
+	"description": "一种非金属元素，广泛用于硫化物生产，硫酸生产和爆炸混合物的生产，也可直接作为燃烧性弹药使用",
+	"cost":1,
+	"color": "FFCA27",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 2,
+	"research": "非金属"
+}

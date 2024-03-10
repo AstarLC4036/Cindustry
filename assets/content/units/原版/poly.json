@@ -1,0 +1,40 @@
+{
+	"health": 600,
+	"weapons":[
+		{
+			"name":"heal-weapon-mount",
+			"top":false,
+            "y":-2.5,
+            "x":3.5,
+            "reload":15,
+            "ejectEffect":"none",
+            "recoil":2,
+            "shootSound":"missile",
+            "velocityRnd":0.5,
+            "inaccuracy":15,
+            "alternate":true,
+			
+			"bullet":{
+				"type":"MissileBulletType",
+				"speed":4,
+				"damage":12,
+				"homingPower":0.08,
+                "weaveMag":4,
+                "weaveScale":4,
+                "lifetime":56,
+                "keepVelocity":false,
+                "shootEffect":"shootHeal",
+                "smokeEffect":"hitLaser",
+                "hitEffect":"hitLaser",
+				"despawnEffect":"hitLaser",
+                "frontColor":"[white]",
+                "hitSound":"none",
+
+                "healPercent":5.5,
+                "collidesTeam":true,
+                "backColor":"98ffa9",
+                "trailColor":"98ffa9"
+			}
+		}
+	]
+}

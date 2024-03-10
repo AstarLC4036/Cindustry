@@ -1,0 +1,13 @@
+{
+	"name": "穿甲导弹",
+	"description": "一种导弹，可以供给给炮塔使用\n[red]注意，弹药类物品易爆炸，如果你不想它把你的前线炸成废墟就请妥善保管",
+	"cost":1,
+	"color": "FFCA27",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 2,
+	"flammability": 0,
+	"research": "穿甲导弹制造厂"
+}

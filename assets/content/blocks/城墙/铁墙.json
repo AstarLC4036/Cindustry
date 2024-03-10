@@ -1,0 +1,15 @@
+{
+	"name": "铁墙",
+	"description": "血量介于塑钢墙与钍墙之间 ，拥有一定的装甲，用它做防御是个不错的选择",
+	"type": "Wall",
+	"health": 560,
+	"armor":3,
+	"size": 1,
+	"absorbLasers":true,
+	"requirements": [
+	{ "item": "铁", "amount": 6}
+	],
+	"buildCostMultiplier": 0.85,
+	"category": "defense",
+	"research": "化学工业"
+}

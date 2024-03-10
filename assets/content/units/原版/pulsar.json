@@ -1,0 +1,43 @@
+{
+	"health": 480,
+	"speed":0.6,
+	"weapons":[
+		{
+			"name":"heal-shotgun-weapon",
+			"top":false,
+			"shootY":2.5,
+			"x":5,
+			"y":0.5,
+			"shootSound":"spark",
+			"reload":19,
+			"recoil":2.5,
+			"shoot":{
+				"shots":3,
+				"shotDelay":0.5
+			}
+			"ejectEffect":"none",
+			"inaccuracy":35,
+			"bullet":{
+				"lightningColor":"98ffa9",
+				"hitColor":"98ffa9",
+				"damage":14,
+				"lightningLength":7,
+                "lightningLengthRand":7,
+                "shootEffect":"shootHeal",
+				"type":"LightningBulletType",
+				"healPercent":2,
+				"lightningType":{
+					"lifetime":10,
+					"speed":0.0001,
+					"hitEffect":"hitLancer",
+                    "despawnEffect":"none",
+                    "status":"shocked",
+                    "statusDuration":10,
+                    "hittable":false,
+                    "healPercent":2,
+                    "collidesTeam":true
+				}
+			}
+		}
+	]
+}

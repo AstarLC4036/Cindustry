@@ -1,0 +1,13 @@
+{
+	"name": "钒",
+	"description": "一种金属，广泛用于制造电池，冶炼合金和化工业催化剂",
+	"cost":1,
+	"color": "D2D3FF",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

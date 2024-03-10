@@ -1,0 +1,76 @@
+{
+	"range": 260,
+	"shoot": {
+		"shots": 8,
+		"shotDelay": 2,
+		"type": "ShootAlternate",
+		"barrels": 3,
+		"spread": 3.5
+	},
+	"ammoPerShot":2,
+	"reload": 32,
+	"ammoTypes": {
+		"blast-compound": {
+			"type": "MissileBulletType",
+			"width": 8,
+			"height": 8,
+			"shrinkY": 0,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 10,
+			"splashDamageRadius": 30,
+			"splashDamage": 45,
+			"ammoMultiplier": 5,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion",
+			"status": "blasted",
+			"statusDuration": 60
+		},
+		"pyratite": {
+			"type": "MissileBulletType",
+			"frontColor": "f8ad42",
+			"backColor": "f68021",
+			"width": 7,
+			"height": 8,
+			"shrinkY": 0,
+			"homingPower": 0.08,
+			"makeFire": true,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 12,
+			"splashDamageRadius": 20,
+			"splashDamage": 45,
+			"ammoMultiplier": 5,
+			"hitEffect": "blastExplosion",
+			"status": "burning",
+			"statusDuration": 360
+		},
+		"surge-alloy": {
+			"type": "MissileBulletType",
+			"backColor":"F2E770",
+			"frontColor":"FFFFFF",
+			"trailColor":"F2E770",
+			"width": 8,
+			"height": 8,
+			"shrinkY": 0,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 18,
+			"splashDamageRadius": 25,
+			"splashDamage": 35,
+			"ammoMultiplier": 4,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion",
+			"lightningDamage": 10,
+			"lightning": 2,
+			"lightningLength": 10
+		},
+		"穿甲导弹": {
+      "speed": 0,
+      "spawnUnit": "蜂群穿甲导弹",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1
+		},
+	}
+}

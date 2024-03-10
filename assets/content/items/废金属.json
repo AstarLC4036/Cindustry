@@ -1,0 +1,14 @@
+{
+	"name": "废金属",
+	"description": "从遗迹中挖掘出的废金属，没人知道它是什么构成的",
+	"details":"高级废料（雾",
+	"cost":1,
+	"color": "222222",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "原矿"
+}

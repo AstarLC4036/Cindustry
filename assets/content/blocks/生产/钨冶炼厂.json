@@ -1,0 +1,39 @@
+{	
+    "type": "GenericCrafter",
+	"health": 240,
+	 "description": "将矿物块与氢气一同加热还原矿物块中的氧化钨",
+	"name": "钨冶炼厂",
+	"outputItem": {
+	"item": "钨", "amount": 2 
+	},
+
+	"itemCapacity": 20,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 3,
+	"liquid":"氢气/0.1"
+	"items": {
+		"items": [
+	{ "item": "矿物块", "amount": 1 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 40 },
+	{ "item": "lead", "amount": 20 },
+	{ "item": "graphite", "amount": 15 },
+	{ "item": "铁", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "炼铁高炉"
+}

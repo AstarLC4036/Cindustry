@@ -1,0 +1,13 @@
+{
+	"name": "钙",
+	"description": "一种碱金属，广泛用于金属冶炼，玻璃制造和塑料合成\n[red]不要把它丢进水里！",
+	"cost":1,
+	"color": "FFFAC7",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0.85,
+	"flammability": 1.1,
+	"research": "金属"
+}

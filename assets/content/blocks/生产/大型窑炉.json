@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "大型窑炉",
+	  "description": "更高效的生产钢化玻璃，需要水来冷却",
+	"outputItem": {
+	"item": "metaglass", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.75,
+	"items": {
+		"items": [
+	{ "item": "lead", "amount": 3 },
+	{ "item": "sand", "amount": 2 },
+	]	}	
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "water", "amount": 0.2 }     ]  },
+	    
+	}
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "硅置换炉"
+}

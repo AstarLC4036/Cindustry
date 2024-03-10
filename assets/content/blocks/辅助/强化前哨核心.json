@@ -1,0 +1,20 @@
+{
+	"name": "强化前哨核心",
+	"description": "可以拆除的小型核心，最多建造7个，拥有一定的储存容量，它的出现极大便利了工业生产和前线防御，但便利带来的往往是不太好的性能",
+	"details":"9块9包邮的e星核心！你买不了吃亏，买不了上当！家人们三二一上链接！"
+	"itemCapacity": 700,
+	"hasItems": true,
+	"health": 500,
+	"unitType":"沉睡",
+	"size": 2,
+	"breakable":true,
+	"buildCostMultiplier":1.5
+	"unitCapModifier":4
+	"requirements": [
+		{ "item":"beryllium", "amount": 900 },
+		{ "item":"tungsten", "amount": 600 },
+		{ "item":"silicon","amount":300},
+	],
+	"category": "effect"
+	"research": "支线-埃萨克",
+}

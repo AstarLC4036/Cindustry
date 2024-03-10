@@ -1,0 +1,34 @@
+{
+        "type": "missile",
+	"template": "MissileUnitType",
+	
+	"name":"蜂群穿甲导弹"
+	"maxRange": 6,
+	"speed":3
+	"rotateSpeed": 3
+	"lifetime":90
+	"health":120
+		
+		"weapons":[{
+		"shootCone": 360,
+		"mirror": false,
+		"shake": 6,
+		"shootOnDeath": true,
+		"shootSound": "plasmaboom",
+		
+		"bullet":{
+		"type": "ExplosionBulletType",
+		"splashDamage": 50,
+
+		"splashDamageRadius": 25
+		"buildingDamageMultiplier": 0.5,
+		"shootEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						"titanExplosion",
+						]
+						}
+			}
+			}
+			]
+			}

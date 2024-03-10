@@ -1,0 +1,13 @@
+{
+	"name": "氯气",
+	"description": "一种活泼的气体，常用于塑料制造和燃烧性弹药生产，也可作为某些化学反应的氯化剂",
+	"alwaysUnlocked":false,
+	"color": "D4FF78",  
+	"gas": true,
+	"flammability": 0.7,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 0.9,
+	"research": "气体"
+}

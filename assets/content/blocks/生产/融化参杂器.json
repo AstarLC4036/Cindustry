@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "融化参杂器",
+	  "description": "将聚合塑料融化后向其中添加耐高温的碳化物粉末以增强其耐高温的程度",
+	"outputItem": {
+	"item": "耐高温聚合塑料", "amount": 2
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 80,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 3,
+	"items": {
+		"items": [
+	{ "item": "聚合塑料", "amount": 1 },
+	{ "item": "碳化物", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "聚合塑料", "amount": 25 },
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 30 },
+	{ "item": "plastanium", "amount": 45 },
+	{ "item": "碳化物", "amount": 50 },
+	{ "item": "titanium", "amount": 60 },
+	],
+	"category": "crafting",
+	"research": "聚合反应室"
+}

@@ -1,0 +1,31 @@
+{
+	"armor":12,
+	"payloadCapacity": 594,
+	"weapons":[
+		{
+			"name":"small-mount-weapon",
+			"reload":10,
+            "x":1,
+            "y":2,
+            "top":false,
+            "shoot":{
+            	"shots":2,
+            	"shotDelay":3,
+            }
+            "inaccuracy":3,
+            "ejectEffect":"casing1",
+            "bullet":{
+            	"type":"BasicBulletType",
+            	"damage":11,
+            	"speed":3.5,
+            	"width":6.5,
+                "height":11,
+                "lifetime":70,
+                "shootEffect":"shootSmall",
+                "smokeEffect":"shootSmallSmoke",
+                "buildingDamageMultiplier":0.01,
+                "homingPower":0.04
+            }
+		}
+	]
+}

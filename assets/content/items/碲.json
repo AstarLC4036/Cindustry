@@ -1,0 +1,13 @@
+{
+	"name": "碲",
+	"description": "一种非金属元素，广泛用于太阳能光电池制造，单位与炮塔制造和高性能温差发电机生产",
+	"cost":1,
+	"color": "EFEFEF",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "非金属"
+}

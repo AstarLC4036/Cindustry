@@ -1,0 +1,40 @@
+{
+	"health": 1050,
+	"weapons":[
+		{
+			"name":"zenith-missiles",
+			"reload":20,
+            "x":7,
+            "rotate":true,
+            "shake":1,
+            "shoot":{
+            	"shots":2
+            }
+            "inaccuracy":5,
+            "velocityRnd":0.2,
+            "shootSound":"missile",
+			
+			"bullet":{
+				"type":"MissileBulletType",
+				"damage":14,
+				"speed":3,
+				"width":8,
+                "height":8,
+                "shrinkY":0,
+                "drag":-0.003,
+                "homingRange":60,
+                "keepVelocity":false,
+                "splashDamageRadius":25,
+                "splashDamage":16,
+                "lifetime":60,
+                "trailColor":"d06b53",
+                "backColor":"d06b53",
+                "frontColor":"ffa665",
+                "hitEffect":"blastExplosion",
+                "despawnEffect":"blastExplosion",
+                "weaveScale":6,
+                "weaveMag":1
+			}
+		}
+	]
+}

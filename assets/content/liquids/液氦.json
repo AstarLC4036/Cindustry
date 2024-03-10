@@ -1,0 +1,13 @@
+{
+	"name": "液氦",
+	"description": "稳定且低温，用来做炮塔冷却液是个不错的选择",
+	"alwaysUnlocked":false,
+	"color": "F6DAFF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 1.2,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": "液体"
+	"effect":"freezing",
+}

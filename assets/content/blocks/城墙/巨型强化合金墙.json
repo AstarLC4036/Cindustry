@@ -1,0 +1,22 @@
+{
+  "type": "Wall",
+  "name": "巨型强化合金墙",
+  "description": "生命值比大型强化合金墙墙更多，相应的占地面积也更大，受到攻击时会释放闪电并对附近的单位造成伤害",
+  "category": "defense",
+  "requirements": [
+    "surge-alloy/54",
+    "tungsten/18"
+  ],
+  "health": 9000,
+  "armor": 20,
+  "research": {
+    "parent": "reinforced-surge-wall-large",
+    "requirements": [
+      "surge-alloy/80",
+      "tungsten/400"
+    ]
+  },
+  "size": 3,
+  "lightningChance": 0.05,
+  "lightningDamage": 30,
+}

@@ -1,0 +1,17 @@
+{
+  "name": "巨型铜墙",
+  "description": "生命值比大型铜墙更多，相应的占地面积也更大。.",
+  "type": "Wall",
+  "health": 2880,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 54
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "copper-wall-large"
+  }
+}

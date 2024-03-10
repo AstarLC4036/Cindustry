@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "炼铁高炉",
+	  "description": "使用煤炭作为还原剂还原矿物块中的铁氧化物以生产铁",
+	"outputItem": {
+	"item": "铁", "amount": 5
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 80,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.5,
+	"items": {
+		"items": [
+	{ "item": "coal", "amount": 3 },
+	{ "item": "矿物块", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 20 },
+	],
+	"category": "crafting",
+	"research": "石料粉碎机"
+}

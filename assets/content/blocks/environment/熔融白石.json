@@ -1,0 +1,11 @@
+{
+	"type": "floor",
+	"name": "熔融白石",
+	"speedMultiplier": 1.125,
+	"dragMultiplier": 0.95,
+	"attributes":{
+		"heat":1.4,
+
+	},
+	"variants": 3
+}

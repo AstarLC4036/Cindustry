@@ -1,0 +1,18 @@
+{
+  "name": "巨型铁墙",
+  "description": "生命值比大型铁墙更多，相应的占地面积也更大。",
+  "type": "Wall",
+  "health": 5600,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "铁",
+      "amount": 54
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "大型铁墙"
+  },
+  "envDisabled": 16
+}

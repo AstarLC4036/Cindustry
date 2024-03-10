@@ -1,0 +1,31 @@
+{
+	"type": "MendProjector",
+	"name": "修理穹顶",
+	"description": "定期修复受损建筑，修复频率比修理投影快，使用强化合金可以提高效率与范围",
+	"health": 450,
+	"size": 3,
+	"range": 120,
+	"reload": 120,
+	"healPercent": 8,
+	"phaseBoost": 16,
+	"phaseRangeBoost": 40,
+	"canOverdrive": false,
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				"强化合金/1"
+			],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		"titanium/120",
+		"plastanium/50",
+		"聚合塑料/50",
+		"铝/50",
+	],
+	"category": "effect",
+	"research": "超速器"
+}

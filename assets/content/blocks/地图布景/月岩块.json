@@ -1,0 +1,7 @@
+{
+	"type": "Prop",
+	"name": "月岩块",
+	"variants": 3,
+	"breakSound":"break",
+	"buildVisibility": "editorOnly"
+}

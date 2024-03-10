@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "干电池制造厂",
+	  "description": "使用石墨，锌，氢氧化物和铝生产可以储存电力的干电池",
+	"outputItem": {
+	"item": "干电池", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 90,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 4,
+	"items": {
+		"items": [
+	{ "item": "铝", "amount": 3 },
+	{ "item": "锌", "amount": 1 },
+	{ "item": "氢氧化物", "amount": 2 },
+	{ "item": "graphite", "amount": 4 },
+	]	}	},
+	"requirements": [
+	{ "item": "钨", "amount": 30 },
+	{ "item": "铁", "amount": 60 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "titanium", "amount": 40 },
+	{ "item": "铝", "amount": 25 },
+	{ "item": "graphite", "amount": 40 },
+	],
+	"category": "power",
+	"research": "中型硅光太阳能板"
+}

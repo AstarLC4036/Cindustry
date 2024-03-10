@@ -1,0 +1,61 @@
+{
+	"type": "Separator",
+	"health": 360,
+	"name": "熔岩分解机",
+	"description": "将熔融岩石中的各种矿物成分分离出来 产物以非金属为主",
+	"results": [
+	{"item": "copper", "amount": 41},	
+	{"item": "氧化物", "amount": 100},
+	{"item": "silicon", "amount": 87},
+	{"item": "硫", "amount": 62},
+	{"item": "lead", "amount": 32},
+	{"item": "pyratite", "amount":74 },
+	{"item": "磷", "amount": 21},
+	],	
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "熔融岩石"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"spinSprite": true,
+				"rotateSpeed": 6
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+			"DrawDefault"
+		]
+	},
+	"itemCapacity": 20,
+	"size": 2,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 32,
+	"consumes": {
+	"power": 1.2,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "熔融岩石", "amount": 0.1},
+	]  }  },
+	"requirements": [
+	{ "item": "titanium", "amount": 20 },
+	{ "item": "metaglass", "amount": 30 },
+	{ "item": "耐高温聚合塑料", "amount": 50 },
+	{ "item": "graphite", "amount": 70 },
+	{ "item": "plastanium", "amount": 40 },
+	{ "item": "lead", "amount": 80 },
+	],
+	"category": "crafting",
+	"research": "强化熔炉"
+}

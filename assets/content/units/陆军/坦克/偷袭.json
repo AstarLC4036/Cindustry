@@ -1,0 +1,86 @@
+{
+	"type": "tank",
+	"name": "偷袭",
+	"squareShape": true,
+	"omniMovement": false,
+	"rotateMoveFirst": false,
+	"description": "搭载小型激光武器 可以穿透敌方立场护盾 同时搭载两门闪电炮进行辅助 使用纯金属装甲 （法拉第笼）可以免疫电击效果" ,
+	"rotateSpeed": 4,
+	"speed": 0.8,
+	"hitSize": 10,
+	"ammoCapacity": 300,
+	"health": 650,
+	"ammoType": {
+		"type": "PowerAmmoType",
+		"totalPower": 800
+	},
+	"immunities": [
+		"shocked"
+	],
+	"armor": 10,
+	"drag": 0.08,
+	"accel": 0.1,
+	"itemCapacity": 5,
+	"faceTarget": false,
+	"research": "闪击",
+	"weapons": [ 
+	    {
+			"name": "偷袭2",
+			"recoil": 1,
+			"x": 3.7,
+			"y": 2, 
+			"reload":5,
+		    "range": 40,
+			"rotate": true,
+			"rotateSpeed": 4,
+			"mirror": true,
+			"inaccuracy": 0.5,
+			"ejectEffect": "none",
+			"shootSound": "spark",
+			"alternate": false,
+			"bullet": {
+			"type":"LightningBulletType"
+			"despawnEffect":"none"
+			"length":150
+			"width":8
+			"drawSize":400
+			"damage":6
+			"speed": 0,
+			"lifetime": 18,
+			"width": 4,
+			"height": 10
+			}
+		}
+		{
+			"name": "偷袭1",
+			"reload": 60,
+			"recoil": 1,
+			"x": 0,
+			"y": -2,
+			"rotate": true,
+			"rotateSpeed": 2,
+			"mirror": false,
+			"inaccuracy": 0.5,
+			"ejectEffect": "none",
+			"shootSound": "laser",
+			"alternate": false,
+			"shootEffect": "lancerLaserShoot",
+         	"smokeEffect": "lightningShoot",
+         	"chargeEffect": "lancerLaserCharge",
+        	"chargeBeginEffect": "lancerLaserChargeBegin",
+"bullet": {
+      "type": "LaserBulletType"
+      "damage": 40
+      "speed": 0
+      "pierce": true
+      "width": 4
+      "length": 150
+      "lifetime": 15
+    }
+            
+
+ 
+} 
+		
+	]
+}

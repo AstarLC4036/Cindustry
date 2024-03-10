@@ -1,0 +1,32 @@
+{
+	"health": 560,
+	"weapons":[
+		{
+			"minShootVelocity":0.75,
+            "x":3,
+            "shootY":0,
+            "reload":15,
+            "shootCone":180,
+            "ejectEffect":"none",
+            "inaccuracy":15,
+            "ignoreRotation":true,
+            "shootSound":"none",
+			
+			"bullet":{
+				"type":"BombBulletType",
+				"damage":0,
+				"splashDamage":25,
+				"splashDamageRadius":27,
+				"speed":0.7,
+				"width":10,
+                "height":14,
+                "hitEffect":"flakExplosion",
+                "shootEffect":"none",
+				"smokeEffect":"none",
+
+                "status":"blasted",
+                "statusDuration":60
+			}
+		}
+	]
+}

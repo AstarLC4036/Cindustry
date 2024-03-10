@@ -1,0 +1,29 @@
+{
+	"health": 925,
+	"speed":0.3,
+	"weapons":[
+		{
+			"name":"beam-weapon",
+			"top":false,
+			"shootY":4,
+			"x":6.5,
+			"shake":2,
+			"shootSound":"laser",
+			"reload":27.5,
+			"recoil":4,
+			"bullet":{
+				"damage":55,
+				"recoil":1,
+				"lightningLength":7,
+                "lightningLengthRand":7,
+				"sideAngle":45,
+                "sideWidth":1,
+                "sideLength":70,
+                "shootEffect":"shootHeal",
+				"type":"LaserBulletType",
+				"healPercent":10,
+				"colors":["98ffa9","98ffa9","FFFFFF"]
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "化学工业-埃萨克",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": {
+		"root":true,
+		"name": "埃萨克"
+		"planet":"埃萨克"
+		},
+    "size": 1
+}

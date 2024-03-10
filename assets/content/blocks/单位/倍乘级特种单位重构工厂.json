@@ -1,0 +1,42 @@
+{
+    "type": "Reconstructor",
+    "name": "倍乘级特种单位重构工厂",
+    "description": "改良的倍乘级单位重构工厂 将输入的特种单位和普通单位升级到第三等级 比普通倍乘级单位重构工厂建造速度更快",
+    "health": 2550,
+    "size": 5,
+    "constructTime": 900,
+    "itemCapacity":400,	
+    "upgrades": [
+        ["mace","fortress"],
+        ["pulsar","quasar"]  
+        ["atrax","spiroct"],
+        ["horizon","zenith"]     
+        ["poly","mega"],
+        ["minke","bryde"]   
+        ["oxynoe","cyerce"],
+    ],
+    "consumes": {
+        "power": 12,
+        "items": {
+            "items": [
+              "silicon/130",
+              "titanium/80", 
+              "metaglass/40" 
+              "氧化物/100"  
+              "铝/60"  
+              "锌/20"
+            ]
+        }
+    },
+    "requirements": [
+      "氧化物/100",
+      "lead/700",
+      "silicon/550",
+      "铝/500"
+      "锌/120"             
+      "thorium/300"        
+      "titanium/500"
+    ],
+    "category": "units",
+    "research": "数增级特种单位重构工厂"
+ }

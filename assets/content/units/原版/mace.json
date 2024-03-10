@@ -1,0 +1,28 @@
+{
+	"health": 700,
+	"speed": 0.3,
+	"weapons":[
+		{
+			"name":"flamethrower",
+			"top":false,
+			"shootY":2,
+			"shootSound":"flame",
+			"reload":7,
+			"recoil":1,
+			"ejectEffect":"none",
+			"bullet":{
+				"damage":30,
+				"speed":3.9,
+				"lifetime":12,
+				"pierce":"true",
+				"statusDuration":240,
+				"shootEffect":"shootSmallFlame",
+				"hitEffect":"hitFlameSmall",
+				"despawnEffect":"none",
+				"status":"burning",
+				"keepVelocity":false,
+				"hittable":false
+			}
+		}
+	]
+}

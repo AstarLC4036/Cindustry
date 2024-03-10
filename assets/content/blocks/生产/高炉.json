@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"name": "高炉",
+	"health": 240,
+	"description": "将废金属熔化为熔融金属，需要比熔炉高2倍的电力才能让它正常工作",
+	"outputLiquid": {"liquid": "熔融金属", "amount": 0.2}, 
+	"itemCapacity": 14,
+	"size": 1,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-b"
+		},
+		{
+		"type":"DrawLiquidTile",
+		"drawLiquid":"熔融金属"
+		},
+		"DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"liquidCapacity": 60,
+	"craftTime": 120,
+	"consumes": {
+	"power": 3,
+	"items": {
+		"items": [
+	{ "item": "废金属" "amount": 1}
+	]
+	}
+	}
+	"requirements": [
+	{ "item": "钨", "amount": 30 },
+	{ "item": "graphite", "amount": 60 },
+	{ "item": "铁", "amount": 30},
+	],
+	"category": "crafting",
+	"research": "强化熔炉"
+}

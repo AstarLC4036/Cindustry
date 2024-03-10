@@ -1,0 +1,5 @@
+{
+"name":"永冻冰墙"
+"type": "StaticWall",
+"variants": 2,
+}

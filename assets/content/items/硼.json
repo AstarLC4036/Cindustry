@@ -1,0 +1,13 @@
+{
+	"name": "硼",
+	"description": "一种非金属元素，广泛用于玻璃制造和金属冶炼，也可用作化学反应的还原剂\n[yellow]单质硼的硬度很高，甚至堪比金刚石！",
+	"cost":1,
+	"color": "FFF3B1",
+	"alwaysUnlocked":false,   
+	"hardness":3,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0.5,
+	"flammability": 0,
+	"research": "非金属"
+}

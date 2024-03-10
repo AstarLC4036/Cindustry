@@ -1,0 +1,13 @@
+{
+	"name": "钪",
+	"description": "一种稀土金属，广泛用于轻质耐高温合金制造，特种玻璃生产和太阳能电池制造",
+	"cost":1,
+	"color": "FFFAC7",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

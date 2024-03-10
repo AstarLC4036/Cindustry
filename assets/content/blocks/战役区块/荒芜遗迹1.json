@@ -1,0 +1,10 @@
+{
+    "type": "Wall",
+    "name": "荒芜遗迹",
+    "description": "一片荒芜的地区，这里曾经是一座武装太空电梯的基站，战争让这座太空电梯陨毁了，进而造就了这里巨大的遗迹群，这里敌人警备松懈，但也不能掉以轻心，它们随时可能会发现你\n[red]强烈建议把赛普罗所有科技解锁之后再打这张地图，你会回来感谢我的",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": "主线-顺序1"
+    "size": 1
+}

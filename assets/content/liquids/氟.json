@@ -1,0 +1,13 @@
+{
+	"name": "氟",
+	"description": "一种活泼的气体，常用于生产高级制冷剂，半导体材料生产以及高级塑料生产，也可作为某些化学反应的氟化剂",
+	"alwaysUnlocked":false,
+	"color": "F6DAFF",  
+	"gas": true,
+	"flammability": 1,
+	"temperature": 0,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 1.5,
+	"research": "气体"
+}

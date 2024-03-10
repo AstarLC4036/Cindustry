@@ -1,0 +1,13 @@
+{
+	"name": "天然气",
+	"description": "一种常见于油层上方的可燃气体，常用于有机合成以及用作燃料，[red]注意：天然气极易燃烧和爆炸！",
+	"alwaysUnlocked":false,
+	"color": "D5E8FF",  
+	"gas": true,
+	"flammability": 1.5,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 2,
+	"research": "气体"
+}

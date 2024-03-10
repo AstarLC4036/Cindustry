@@ -1,0 +1,114 @@
+{
+	"type": "flying",
+	"name": "辑捕",
+	"speed": 2.4,
+	"drag": 0.05,
+	"accel": 0.1,
+	"description": "搭载两台四联激光炮以及一台实验型流光炮塔，拥有不错的机动性和装甲",
+	"details":"成群时非常强大！",
+	"rotateSpeed": 4,
+	"ammoType": {
+		"type": "PowerAmmoType",
+		"totalPower": 800
+	},
+	"ammoCapacity": 120,
+	"hitSize": 15,
+	"flying": true,
+	"faceTarget": true,
+	"drawMinimap": false,
+	"health": 700,
+	"armor": 3,
+	"engineOffset": 10,
+	"engineSize": 4,
+	"itemCapacity": 0,
+	"research": "哨戒",
+	"weapons": [
+		{
+			"name": "辑捕1",
+			"reload": 300,
+			"x": 0,
+			"shootY": 9.5,
+			"rotate": false,
+			"top": false,
+			"recoil": 0,
+			"cooldownTime": 60,
+			"inaccuracy": 0,
+			"mirror": false,
+			"shootSound": "torch",
+			"alwaysContinuous": true,
+			"shootWarmupSpeed": 0.125,
+			"minWarmup": 0.98,
+			"bullet": {
+				"type": "ContinuousFlameBulletType",
+				"recoil": 0.03,
+				"damage": 7,	
+				"incendChance": 0,
+				"status": "melting",
+				"statusDuration": 180,
+				"laserAbsorb": true,
+				"smokeEffect": {
+					"type": "ParticleEffect",
+					"particles": 9,
+					"sizeFrom": 5,
+					"sizeTo": 0,
+					"baseLength": 4,
+					"length": 50,
+					"interp": "pow10Out",
+					"sizeInterp": "pow5In",
+					"lifetime": 20,
+					"colorFrom": "6e96b4",
+					"colorTo": "7ccdf390",
+					"cone": 12
+				},
+				"shootEffect": {
+					"type":"WaveEffect",
+					"sizeFrom": 50,
+					"sizeTo": 0,
+					"interp": "circleOut",
+					"strokeFrom": 8,
+					"strokeTo": 0,
+					"colorFrom": "7ccdf3",
+					"colorTo": "6e96b4"
+				},
+				"lightColor": "6e96b488",
+				"flareColor": "6e96b4",
+				"hitColor": "6e96b4",
+				"colors": [
+					"7ccdf390",
+					"97FFA880",
+					"6e96b4",
+					"FFFFFF"
+				],
+				"length": 150,
+				"width": 2
+			}
+		}
+		{
+			"reload": 60,
+			"x": 4,
+			"y": -4,
+			"shoot": {
+				"shots": 4,
+				"shotDelay": 4
+			},
+			"top": false,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"shootSound": "lasershoot",
+			"bullet": {
+				"type": "LaserBoltBulletType",
+				"frontColor": "FFFFFF",
+				"backColor": "97ceffff",
+				"damage": 7,
+				"pierce": true,
+				"pierceCap": 3,
+				"collidesTeam": true,
+				"speed": 7,
+				"lifetime": 30,
+				"width": 1,
+				"height": 10
+			}
+		    
+		}
+	]
+}

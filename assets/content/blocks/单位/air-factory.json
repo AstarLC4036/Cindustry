@@ -1,0 +1,22 @@
+{  
+  "plans": [
+    
+      {
+      "unit": "flare",
+      "requirements": [
+        "silicon/45"  
+      ],
+      "time": 1500
+      }
+      {
+      "unit": "mono",
+      "requirements": [
+        "lead/35",
+        "silicon/35"  
+        "钨/20"  
+      ],
+      "time": 2100
+          
+      }
+]
+}

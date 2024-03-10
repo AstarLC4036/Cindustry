@@ -1,0 +1,14 @@
+{
+	"name": "盐",
+	"description": "用途极为广泛的一类化合物\n[red]注意：部分盐类极易燃烧和爆炸，请妥善保管",
+	"cost":1,
+	"color": "FFFFFF",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 2,
+	"flammability": 2,
+	"research": "无机化合物"
+	"details":"作者亲测，装满了盐的仓库可以轻松破掉要塞的护盾并对要塞本体造成将近8k的伤害"
+}

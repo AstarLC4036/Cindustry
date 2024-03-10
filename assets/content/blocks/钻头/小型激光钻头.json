@@ -1,0 +1,39 @@
+{
+  "name": "小型激光钻头",
+  "description": "一种改良的激光钻头 相较于普通激光钻头占地面积更小 效率与普通激光钻头相同 当然耗电也一样",
+  "type": "Drill",
+  "size": 2,
+  "itemCapacity": 10,
+  "tier": 4,
+  "drillTime":115,
+  //值增加0.625时每秒减少0.01个物品,115
+  "consumes": {
+    "power": 1.1,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.018,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "钨",
+      "amount": 25
+    },
+    {
+      "item": "铝",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 20
+    },
+    {
+      "item": "titanium",
+      "amount": 10
+    }
+  ],
+  "category": "production",
+  "research": "机械采掘机"
+}

@@ -1,0 +1,100 @@
+{
+	"type": "ItemTurret",
+	"name": "利刃",
+	"description": "向敌人连续发射3枚炮弹，可以使用多种弹药",
+	"health": 560,
+	"size": 1,
+	"reload": 40,
+	"range": 120,
+	"ammoPerShot": 1,
+	"consumes": {
+		"coolant": {
+			"amount": 0.1,
+			"optional": true
+		}
+	},
+	"shoot": {
+		"shots": 3,
+		"shotDelay": 1,
+		"type": "ShootAlternate",
+		"barrels": 3,
+		"spread": 3
+	},
+	"xRand": 1,
+	"ammoUseEffect": "casing2Double",
+	"inaccuracy": 1,
+	"rotateSpeed": 12,
+	"shake": 1,
+	"ammoTypes": {
+		"copper": {
+			"speed": 5,
+			"damage": 13,
+			"lifetime": 24,
+			"width": 7,
+			"height": 8,
+			"ammoMultiplier": 3,
+			"shootEffect": "shootSmall"
+		},
+		"graphite": {
+			"reloadMultiplier": 0.5,
+			"speed": 5,
+			"damage": 23,
+			"lifetime": 24,
+			"width": 7,
+			"height": 8,
+			"ammoMultiplier": 4,
+			"shootEffect": "shootSmall"
+		},
+		"pyratite": {
+			"speed": 5,
+			"damage": 16,
+			"lifetime": 24,
+			"width": 7,
+			"height": 8,
+			"makeFire": true,
+			"ammoMultiplier": 2,
+			"shootEffect": "shootSmall",
+			"status": "burning",
+			"statusDuration": 600,
+			"frontColor":"f8ad42",
+			"backColor":"f68021"
+		},
+		"silicon": {
+			"speed": 5.3,
+			"damage": 17,
+			"reloadMultiplier": 1.6,
+			"lifetime": 35,
+			"width": 7,
+			"height": 8,
+			"shootEffect": "shootSmall",
+			"homingRange": 40,
+			"homingPower": 0.06,
+			"ammoMultiplier": 5
+		}	
+		"lead": {
+			"speed": 5.3,
+			"damage": 10,
+			"fragBullets": 3,
+			"rangeChange":40,
+			"lifetime": 24,
+			"fragBullet": {
+				"speed": 4,
+				"damage": 4,
+				"lifetime": 15
+		}
+	},
+	},
+	"researchCostMultiplier": 0.5,
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 60
+		},
+		{
+			"item": "lead",
+			"amount": 75
+		},		
+	],
+	"category": "turret",
+	"research": "化学工业"
+}

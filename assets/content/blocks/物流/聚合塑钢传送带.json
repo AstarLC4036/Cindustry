@@ -1,0 +1,17 @@
+{
+	"type": "StackConveyor",
+	"name": "聚合塑钢传送带",
+	"description": "相较于塑钢带有更好的装甲以及更大的运输量",
+	"health": 300,
+	"insulated":true,
+	"requirements": [
+	"lead/2",
+	"silicon/1",
+	"聚合塑料/1",
+	"plastanium/1"
+	],
+	"category": "distribution",
+	"research":"复合钛传送带",
+	"speed": 0.07,
+	"itemCapacity":20
+}

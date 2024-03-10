@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "炸药混合机",
+	  "description": "使用硫化物，铝和孢子荚更高效的生产爆炸混合物",
+	"outputItem": {
+	"item": "blast-compound", "amount": 5
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 2.5,
+	"items": {
+		"items": [
+	{ "item": "铝", "amount": 1 },
+	{ "item": "pyratite", "amount": 2 },
+	{ "item": "spore-pod", "amount": 2 },
+	]	}	
+	}
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "titanium", "amount": 30 },
+	{ "item": "铝", "amount": 55 },
+	],
+	"category": "crafting",
+	"research": "硫化反应室"
+}

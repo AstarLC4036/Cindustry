@@ -1,0 +1,72 @@
+{
+	"type": "Separator",
+	"health": 360,
+	"name": "石料酸溶电解机",
+	"description": "将盐，石料，硫酸和水一同混合溶解并电解以分离出相对不活泼的金属元素和少量的非金属元素",
+	"results": [
+	{"item": "硒", "amount": 1},	          {"item": "碲", "amount": 1},
+	{"item": "铝", "amount": 1},
+	{"item": "钒", "amount": 1},
+	{"item": "钪", "amount": 1},
+	{"item": "钨", "amount": 1},	          {"item": "钴", "amount": 1},
+	{"item": "铁", "amount": 1},
+	{"item": "铬", "amount": 1},
+	{"item": "镍", "amount": 1},
+	{"item": "锗", "amount": 1},
+	{"item": "镓", "amount": 1},
+	{"item": "copper", "amount": 1},
+	{"item": "titanium", "amount": 1},
+	{"item": "graphite", "amount": 1},
+	{"item": "lead", "amount": 1},
+	{"item": "thorium", "amount": 1},
+	{"item": "silicon", "amount": 1},
+	{"item": "硫", "amount": 1},
+	{"item": "锰", "amount": 1},
+	],	
+	"craftEffect": "smeltsmoke",
+	"itemCapacity": 20,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 20,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawRegion",
+				//这个type允许新增旋转贴图
+				//当然，旋转速度设为0也可以新增静态贴图
+				"suffix":"-r",
+				//"贴图后缀"
+				"rotateSpeed":4
+				//贴图旋转速度
+			}
+		]
+	},		
+	"consumes": {
+	"power": 8,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "硫酸", "amount": 0.1 },
+	{ "liquid": "water", "amount": 0.3 }     ]  },
+	"items": {
+		"items": [
+	{ "item": "盐", "amount": 1 },
+	{ "item": "石料", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "metaglass", "amount": 100 },
+	{ "item": "titanium", "amount": 70 },
+	{ "item": "铝", "amount": 20 },
+	{ "item": "plastanium", "amount": 50 },
+	{ "item": "silicon", "amount": 110 },
+	{ "item": "graphite", "amount": 60 },
+	
+	],
+	"category": "crafting",
+	"research": "废金属粉碎机"
+}

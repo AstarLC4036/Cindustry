@@ -1,0 +1,12 @@
+{
+	"type": "floor",
+	"name": "永冻冰",
+	"speedMultiplier": 1.125,
+	"dragMultiplier": 0.95,
+	"attributes":{
+		"oil": 0,
+		"water": 1.7,
+		"spores": 0
+	},
+	"variants": 3
+}

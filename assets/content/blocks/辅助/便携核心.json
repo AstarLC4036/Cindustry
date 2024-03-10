@@ -1,0 +1,21 @@
+{
+	"name": "便携核心",
+	"description": "可以拆除的小型核心，最多建造7个，拥有一定的储存容量，它的出现极大便利了工业生产和前线防御，但便利带来的往往是不太好的性能",
+	"details":"9块9包邮的核心！你买不了吃亏，买不了上当！家人们三二一上链接！"
+	"itemCapacity": 500,
+	"hasItems": true,
+	"health": 500,
+	"unitType":"蜉蝣",
+	"size": 2,
+	"breakable":true,
+	"buildCostMultiplier":1.5
+	"unitCapModifier":4
+	"requirements": [
+		{ "item":"copper", "amount": 1000 },
+		{ "item":"lead", "amount": 800 },
+		{ "item":"锌","amount":500},
+		{ "item":"silicon","amount":300},
+	],
+	"category": "effect"
+	"research": "化学工业",
+}

@@ -1,0 +1,60 @@
+{
+	"type": "GenericCrafter",
+	"name": "石油分馏塔",
+	"health": 360,
+	"description": "将石油加热进行分馏以产生烷以及石油焦",
+	"outputItem": {
+	"item": "石油焦", "amount": 3
+	},
+	"outputLiquid": {"liquid": "烷", "amount": 0.2}, 
+	"itemCapacity": 20,
+	"size": 3,
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "烷"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"spinSprite": true,
+				"rotateSpeed": 10
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+			"DrawDefault"
+		]
+	},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"consumes": {
+		"power": 3,
+	"liquid": 
+	{"liquid": "oil", "amount": 0.4 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 80 },
+	{ "item": "铁", "amount": 90 },
+	{ "item": "metaglass", "amount": 70},
+	{ "item": "silicon", "amount": 50 },
+	{ "item": "铝", "amount": 30 },
+	{ "item": "titanium", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "石油固化机"
+}

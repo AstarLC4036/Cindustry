@@ -1,0 +1,24 @@
+{
+"type":"payload"
+"name":"蜉蝣",
+"rotateSpeed": 4,
+"payloadCapacity": 66,
+//此值增加1时增加0.01526格载荷容量
+"description":"便携核心的建设无人机，不具备攻击能力，可以挖取钛，有一格的载荷容量，能进行建造",
+"details":"9块9包邮的核心机能挖钛就已经不错了，还要啥自行车",
+"controller":"BuilderAI"
+"isCounted":false,
+"flying":true,
+"lowAltitude":true
+"hovering":false
+"circleTarget":true
+"mineTier":3
+"mineSpeed":5
+"itemCapacity":10
+"buildSpeed":0.4
+"speed":3
+"hitSize":5
+"health": 70,
+"armor":0
+"commandLimit":8
+}

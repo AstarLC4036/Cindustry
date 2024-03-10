@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"name": "盐溶液混合器",
+	"health": 360,
+	"description": "将盐与水混合加热促进盐的溶解以高效的生产盐溶液",
+	"outputLiquid": {"liquid": "盐溶液", "amount": 0.3},
+	"itemCapacity": 14,
+	"size": 3,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-b"
+		},
+		{
+		"type":"DrawLiquidTile",
+		"drawLiquid":"盐溶液"
+		},
+		"DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 120,
+	"consumes": {
+		"power": 3,
+	"items": {
+	"items": [
+	{ "item": "盐", "amount": 6 }	]	},
+	"liquid": 
+	{"liquid": "water", "amount": 0.3 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "copper", "amount": 60 },
+	{ "item": "metaglass", "amount": 40},
+	{ "item": "silicon", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "海水淡化制盐工厂"
+}

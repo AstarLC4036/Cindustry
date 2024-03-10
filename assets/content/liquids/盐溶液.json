@@ -1,0 +1,12 @@
+{
+	"name": "盐溶液",
+	"description": "用途非常广泛的液体",
+	"alwaysUnlocked":false,
+	"color": "9A9A9A",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 0.1,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": "液体"
+}

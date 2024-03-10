@@ -1,0 +1,31 @@
+{
+	"name": "超速器",
+	"description": "在小范围内提供超速立场，加入硅可以提升效率与范围",
+	"type": "OverdriveProjector",
+	"health": 120,
+	"size": 1,
+	"range": 40,
+	"phaseRangeBoost": 20,
+	"speedBoostPhase": 0.5,
+	"speedBoost": 1.5,
+	"hasBoost": true,
+	"useTime": 60,
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				"silicon/1"
+			],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	"lead/60",
+	"silicon/30",
+	"titanium/50",
+	"锌/30",
+	],
+	"category": "effect",
+	"research": "化学工业"
+}

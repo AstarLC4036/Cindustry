@@ -1,0 +1,13 @@
+{
+	"name": "镓",
+	"description": "一种稀土金属，广泛用于高级电力系统，高性能热传递器和化学反应的催化剂，熔点很低，你的体温就能够使其融化",
+	"cost":1,
+	"color": "989898",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

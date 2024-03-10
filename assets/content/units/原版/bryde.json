@@ -1,0 +1,90 @@
+{
+	"health": 1500,
+	"weapons":[
+		{
+			"name":"large-artillery",
+			"reload":32,
+            "mirror":false,
+            "x":0,
+            "y":-3.5,
+            "rotateSpeed":1.7,
+            "rotate":true,
+            "shootY":7,
+            "shake":5,
+            "recoil":4,
+            "shadow":12,
+
+            "inaccuracy":3,
+            "ejectEffect":"casing3",
+            "shootSound":"artillery",
+				
+				"bullet":{
+					"type":"ArtilleryBulletType",
+					"speed":3.2,
+					"damage":12,
+					"trailMult":0.8,
+                    "hitEffect":"massiveExplosion",
+                    "knockback":1.5,
+                    "lifetime":100,
+                    "height":15.5,
+                    "width":15,
+                    "collidesTiles":false,
+                    "ammoMultiplier":4,
+                    "splashDamageRadius":50,
+                    "splashDamage":80,
+                    "backColor":"e58956",
+                    "frontColor":"ffd2ae",
+                    "trailEffect":"artilleryTrail",
+                    "trailSize":6,
+                    "hitShake":4,
+
+                    "shootEffect":"shootBig2",
+
+                    "status":"blasted",
+                    "statusDuration":60
+				}
+		},
+		{
+			"name":"missiles-mount",
+			"reload":10,
+            "x":8.5,
+            "y":-9,
+
+            "shadow":6,
+
+            "rotateSpeed":4,
+            "rotate":true,
+            "shoot":{
+            	"shots":2,
+            	"shotDelay":3
+            }
+            "inaccuracy":5,
+            "velocityRnd":0.1,
+            "shootSound":"missile",
+
+            "ejectEffect":"none",
+				
+			"bullet":{
+				"type":"MissileBulletType",
+				"damage":12,
+				"speed":2.7,
+				"width":8,
+                "height":8,
+                "shrinkY":0,
+                "drag":-0.003,
+                "homingRange":60,
+                "keepVelocity":false,
+                "splashDamageRadius":25,
+                "splashDamage":10,
+                "lifetime":80,
+                "trailColor":"[gray]",
+                "backColor":"f9c27a",
+                "frontColor":"fff8e8",
+                "hitEffect":"blastExplosion",
+                "despawnEffect":"blastExplosion",
+                "weaveScale":8,
+                "weaveMag":1,
+			}
+		}
+	]
+}

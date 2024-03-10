@@ -1,0 +1,30 @@
+{
+  "type": "SolarGenerator",
+  "size": 4,
+  "health":650,
+  "name": "超大型硅光太阳能板",
+  "description": "更大更好也更贵",
+  "details":"[red]硅零警告！",
+  "hasPower": true,
+  "powerProduction":4,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 300
+    },
+    {
+      "item": "metaglass",
+      "amount": 50
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 560
+    }
+  ],
+  "category": "power",
+  "research": "中型硅光太阳能板"
+}

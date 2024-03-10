@@ -1,0 +1,10 @@
+{
+	"type": "floor",
+	"name": "灼热白石",
+	"speedMultiplier": 1.125,
+	"dragMultiplier": 0.95,
+	"attributes":{
+		"heat": 1,
+	},
+	"variants": 3
+}

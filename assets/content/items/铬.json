@@ -1,0 +1,13 @@
+{
+	"name": "铬",
+	"description": "一种金属，质地坚硬，广泛用于制造镍铬合金，也可作为穿透性子弹使用",
+	"cost":1,
+	"color": "5C00C1",
+	"alwaysUnlocked":false,   
+	"hardness":5,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

@@ -1,0 +1,52 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "硫化反应室",
+	  "description": "使用纯硫和铅一同加热以更高效的生产硫化物",
+	"outputItem": {
+	"item": "pyratite", "amount": 5
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":9,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.75,
+	"items": {
+		"items": [
+	{ "item": "lead", "amount": 3 },
+	{ "item": "硫", "amount": 2 },
+	]	}	},
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "water", "amount": 0.2 }     ]  },
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "铁", "amount": 60 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "titanium", "amount": 35 },
+	{ "item": "metaglass", "amount": 25 },
+	{ "item": "graphite", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "硅置换炉"
+}

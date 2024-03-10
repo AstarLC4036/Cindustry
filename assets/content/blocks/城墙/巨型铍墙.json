@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "巨型铍墙",
+  "description": "生命值比大型铍墙更多，相应的占地面积也更大。",
+  "size": 3,
+  "health": 4680,
+  "category": "defense",
+  "research": "beryllium-wall-large",
+  "armor": 2,
+  "requirements": [
+    "beryllium/54"  
+  ]
+}

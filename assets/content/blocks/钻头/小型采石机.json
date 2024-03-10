@@ -1,0 +1,46 @@
+{
+
+	"type":"GenericCrafter",
+	"name":"小型采石机",
+	"outputItem": {
+	"item": "石料", "amount": 1
+	},
+	"details":"虽然石头非常常见，常见到出门都有可能被它砸死，但却是工业体系中不可或缺的原料之一",
+	"craftEffect": "smeltsmoke",
+	"itemCapacity":20,	
+    "generateEffect": "generatespark",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":4,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+		]
+	},
+	"updateEffect":"pulverizeSmall",
+	"craftEffect":"mine",
+	"group":"drills",
+	"health":160,
+	"craftTime":140,
+	"placeableLiquid":true,
+	"requiresWater":false,
+	"hasItems":true,
+	"hasLiquids":false,
+	"hasPower":false,
+	"description":"挖掘地面采集石头，不需要电力",
+	"size":2,
+	"requirements":[
+		"copper/46",
+		"lead/22",
+	],
+	"research":"小型采矿机",
+	"category":"production"
+}

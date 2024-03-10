@@ -1,0 +1,13 @@
+{
+	"name": "钨",
+	"description": "一种金属，广泛用于生产耐热抗磨高强度硬质合金，单位与炮塔制造和生产高级钻头，也可作为穿甲性弹药使用\n[cyan]因为屑芙安卡不会搞科技树以及星球科技互通，所以就只能单独把e星的物品做出来了（",
+	"cost":1,
+	"color": "EBF5FF",
+	"alwaysUnlocked":false,   
+	"hardness":4,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

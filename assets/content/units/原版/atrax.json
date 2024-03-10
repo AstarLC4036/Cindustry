@@ -1,0 +1,25 @@
+{
+	"health": 900,
+	"weapons":[
+		{
+			"name":"eruption",
+			"top":false,
+			"shootY":3,
+			"reload":5,
+			"recoil":1,
+			"shootSound":"flame",
+			"ejectEffect":"none",
+			"x":7,
+			
+			"bullet":{
+				"type":"LiquidBulletType",
+				"liquid":"slag",
+				"damage":11,
+                "lifetime":56,
+                "speed":2.3,
+				"drag":0.01,
+				"shootEffect":"shootSmall"
+			}
+		}
+	]
+}

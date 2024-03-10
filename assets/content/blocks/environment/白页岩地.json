@@ -1,0 +1,8 @@
+{
+	"type": "floor",
+	"name": "白页岩地",
+	"variants": 3
+	"playerUnmineable":true
+	"attributes":
+	{"oil": 1,"water":0.2},
+}

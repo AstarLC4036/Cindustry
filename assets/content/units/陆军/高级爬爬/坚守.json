@@ -1,0 +1,97 @@
+{
+"type":"legs",
+"name":"坚守",	
+"defaultController":"BuilderAI",
+"description":"向敌人发射小型高爆导弹和激光弹，激光弹可以修复建筑，可以跨越大多数地形，非常适合用来防御",
+"speed": 1,
+"hitSize":12,
+"health": 450
+"armor": 2,	
+"buildSpeed": 2,
+"buildBeamOffset": 5,
+"research":"特种单位工厂"
+
+    "legCount": 6,
+    "lockLegBase": true,
+    "legContinuousMove": true,
+    "legExtension": 5,
+    "maxStretch": 1,
+    "legLength":10
+    "legBaseOffset": 3.5,
+    "legMaxLength": 1.8,
+    "legMinLength": 0.8,
+    "legMoveSpace": 1.7,
+    "abilities": [
+		{
+			"type": "StatusFieldAbility",
+			"duration": 70,
+			"reload": 120,
+			"range": 60,
+			"applyEffect": "none",
+			"activeEffect": {
+				"type": "WaveEffect",
+				"lifetime": 10,
+				"sizeFrom": 0,
+				"sizeTo": 60,
+				"strokeFrom": 1,
+				"strokeTo": 1,
+				"colorFrom": "ffffff",
+				"colorTo": "ffffff"
+			},
+			"effect": "overclock"
+		},
+			]
+
+"weapons": [
+{
+            "name": "坚守1",
+            "mirror": true,
+            "x": 0
+            "y": -3,
+            "reload": 120,
+            "recoil": 1,
+            "shootSound": "missileSmall",
+            "inaccuracy": 0,
+            "shoot": {
+		"type": "ShootSpread",
+		"spread":120
+		"shots": 1
+	}
+            "bullet":{
+      "speed": 0,
+      "spawnUnit": "坚守导弹",
+      "instantDisappear": true,
+      "reloadMultipler": 0.9,
+      "ammoMultiplier": 1
+      "buildingDamageMultiplier": 0.7,
+    }
+    }	
+    {       "name":"坚守2"
+			"reload": 60,
+			"x": 0,
+			"y": 3,
+			"shoot": {
+				"shots": 4,
+				"shotDelay": 4
+			},
+			"top": false,
+			"shootSound": "lasershoot",
+			"bullet": {
+				"type": "LaserBoltBulletType",
+				"frontColor": "FFFFFF",
+				"backColor": "97ceffff",
+				"damage": 7,
+				"pierce": true,
+				"pierceCap": 3,
+				"collidesTeam": true,
+				"speed": 7,
+				"lifetime": 30,
+				"width": 1,
+				"height": 10	
+				"healPercent": 5,
+				"buildingDamageMultiplier": 0.85,
+			}
+		    
+		}
+    ]
+    }

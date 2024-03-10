@@ -1,0 +1,13 @@
+{
+	"name": "氢氧化物",
+	"description": "大部分氢氧化物都是无机碱（除了水），常用于化工生产和电池制造，也可作为腐蚀性弹药使用",
+	"cost":1,
+	"color": "FFFFFF",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "无机化合物"
+}

@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	 "description": "将盐和含氧化铝的矿物块混合电解以产出单质铝",
+	"name": "铝土电解机",
+	"outputItem": {
+	"item": "铝", "amount": 4
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 6,
+	"items": {
+		"items": [
+	{ "item": "盐", "amount": 2 },
+	{ "item": "矿物块", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 125 },
+	{ "item": "lead", "amount": 90 },
+	{ "item": "graphite", "amount": 60 },	    { "item": "铁", "amount": 40 },
+	{ "item": "titanium", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "炼铁高炉"
+}

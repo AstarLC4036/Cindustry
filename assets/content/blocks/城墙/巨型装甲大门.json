@@ -1,0 +1,25 @@
+{
+  "type": "door",
+  "name": "巨型装甲大门",
+  "description": "生命值比大型门更多，相应的占地面积也更大，点击可以打开使陆军单位通过。\n[cyan]开门的贴图有点小问题 但是不妨碍使用",
+  "size": 3,
+  "health": 3600,
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 54
+    },
+    {
+      "item": "silicon",
+      "amount": 36
+    } 
+    {
+      "item": "铁",
+      "amount": 12
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "door-large"
+  }
+}

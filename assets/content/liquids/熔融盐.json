@@ -1,0 +1,15 @@
+{
+	"name": "熔融盐",
+	"description": "熔融态的盐，可以使用熔融盐分解机从中提炼出金属元素和非金属元素，也可作为矿渣类液体弹药使用",
+	"alwaysUnlocked":false,
+	"color": "ffe1a5",
+	"lightColor":"ffe1a5a0",
+	"flammability": 0,
+	"temperature": 4,
+	"heatCapacity": -1,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"effect":"melting",
+	"research": "液体"
+	"effect":"melting",
+}

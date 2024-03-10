@@ -1,0 +1,10 @@
+{
+    "type": "Wall",
+    "name": "主线-顺序1",
+    "description": " 上手难度相较于主线顺序2更困难 适合mdt大佬 顺序1是正常的主线走法 比顺序2更有挑战性",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": "化学工业-战役区块"
+    "size": 1
+}

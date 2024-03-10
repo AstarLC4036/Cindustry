@@ -1,0 +1,23 @@
+{
+  "name": "巨型塑钢墙",
+  "description": "生命值比大型塑钢墙更多，相应的占地面积也更大，可以阻挡激光与闪电，但会阻止附近的电力节点自动链接。",
+  "type": "Wall",
+  "insulated": true,
+  "absorbLasers": true,
+  "health": 4680,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "plastanium",
+      "amount": 54
+    } 
+    {
+      "item": "metaglass",
+      "amount":18
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "plastanium-wall-large"
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"type": "GenericCrafter",
+	"name": "湿法冶锌炉",
+	"health": 360,
+	"description": "将含有氧化锌的矿物块进行焙烧并加入盐溶液中和焙烧产物最后电解产物以制取纯锌",
+	"itemCapacity": 15,
+	"size": 3,
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"outputItem": {
+	"item": "锌", "amount": 2 
+	},
+	"craftTime": 120,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":2,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":-2,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+	"updateEffect":"pulverizeSmall",
+	"consumes": {
+		"power": 3,
+	"items": {
+	"items": [
+	{ "item": "矿物块", "amount":2  }	]	},
+	"liquid": 
+	{"liquid": "盐溶液", "amount": 0.1 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 60 },
+	{ "item": "copper", "amount": 40 },
+	{ "item": "铝", "amount": 40},
+	{ "item": "graphite", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "铝土电解机"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "超巨型合金墙",
+  "description": "生命值比大型塑钢墙更多，相应的占地面积也更大，受到攻击时会释放闪电并对附近的单位造成伤害.",
+  "type": "Wall",
+  "lightningChance": 0.20,
+  "lightningDamage": 30,
+  "lightningLength": 22,
+  "health": 14720,
+  "size": 4,
+  "requirements": [
+    {
+      "item": "surge-alloy",
+      "amount": 96
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "巨型合金墙"
+  },
+  "envDisabled": 16
+}

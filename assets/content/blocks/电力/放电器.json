@@ -1,0 +1,44 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "放电器",
+  "description": "将干电池中储存的电力释放出来",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 90,
+  "powerProduction": 6,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "干电池",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 70
+    },
+    {
+      "item": "铁",
+      "amount": 35
+    },
+    {
+      "item": "铝",
+      "amount": 50
+    }
+  ],
+  "category": "power",
+  "research": "干电池"
+}

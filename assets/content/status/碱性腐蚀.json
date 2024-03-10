@@ -1,0 +1,30 @@
+{
+"name":"碱性腐蚀",
+	"damage": 0.2,	
+	"healthMultiplier":0.7,
+	"speedMultiplier":0.9,
+	"damageMultiplier": 0.9,
+	"reloadMultiplier": 0.85,
+	"effectChance":0.9,
+	"opposites": [
+		"酸性腐蚀",
+		"freezing",
+	],
+	"transitionDamage": 120,
+	"affinities": [
+		"脆弱",
+		"shocked",
+		"wet",
+		"sapped"
+		"melting"]
+	"effect":{	"type": "ParticleEffect",
+	"particles": 1,  
+	"baseLength": 10,
+	"length":8,
+	"lifetime": 20,
+	"sizeFrom": 1,
+	"sizeTo": 0,
+	"colorFrom": "F9FFFF",
+	"colorTo": "F9FFFF",
+	"cone":360 }
+}

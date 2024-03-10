@@ -1,0 +1,14 @@
+{
+	"name": "石料",
+	"description": "矿井中开采出来的石头",
+	"details":"低配废料，没有废料就用它",
+	"cost":1,
+	"color": "222222",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "原矿"
+}

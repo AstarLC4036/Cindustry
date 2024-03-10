@@ -1,0 +1,46 @@
+{
+
+	"type":"GenericCrafter",
+	"name":"小型采矿机",
+	"outputItem": {
+	"item": "矿物块", "amount": 1
+	},
+	"details":"梦的开始",
+	"craftEffect": "smeltsmoke",
+	"itemCapacity":20,	
+    "generateEffect": "generatespark",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":4,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+		]
+	},
+	"updateEffect":"pulverizeSmall",
+	"craftEffect":"mine",
+	"group":"drills",
+	"health":160,
+	"craftTime":160,
+	"placeableLiquid":true,
+	"requiresWater":false,
+	"hasItems":true,
+	"hasLiquids":false,
+	"hasPower":false,
+	"description":"挖掘到地下采集地下矿物，不需要电力",
+	"size":2,
+	"requirements":[
+		"copper/56",
+		"lead/32",
+	],
+	"research":"化学工业",
+	"category":"production"
+}

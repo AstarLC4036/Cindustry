@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "name": "巨型碳化物墙",
+  "description": "生命值比大型碳化物墙更多，相应的占地面积也更大。",
+  "category": "defense",
+  "requirements": [
+    "thorium/54",
+    "carbide/54"
+  ],
+  "health": 9720,
+  "armor": 16,
+  "research": "carbide-wall-large",
+  "size": 3
+}

@@ -1,0 +1,13 @@
+{
+	"name": "耐高温聚合塑料",
+	"description": "用途非常广泛的耐高温塑料",
+	"cost":1,
+	"color": "54D0FF",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0.05,
+	"research": "有机物"
+}

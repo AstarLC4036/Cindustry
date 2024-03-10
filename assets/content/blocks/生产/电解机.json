@@ -1,0 +1,63 @@
+{
+  "type": "GenericCrafter",
+  "name": "电解机",
+  "description": "将水电解为氢气和氧气",
+  "size": 2,
+  "requirements": [
+    {"item": "copper", "amount": 40},
+    {"item": "铁", "amount": 30},
+    {"item": "metaglass", "amount": 5},
+  ],
+  "category": "crafting",
+  "research": "基础大气分离机",
+  "researchCostMultiplier": 1.2,
+  "rotate": true,
+  "invertFlip": true,
+  "liquidCapacity": 75,
+  "consumes": {
+    "power": 1,
+    "liquids":{
+	    "liquids":[
+	{ "liquid": "water", "amount": 0.2 }     ]  },	},
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "alpha": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "7693e3",
+        "sides": 10,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "alpha": 0.7,
+        "color": "c4bdf3",
+        "glowIntensity": 0.3,
+        "glowScale": 6
+      }
+    ]
+  },
+  "ambientSound": "electricHum",
+  "ambientSoundVolume": 0.1,
+  "regionRotated1": 3,
+  "outputLiquids": [{"liquid": "氧气", "amount": 0.1}, {"liquid": "氢气", "amount": 0.2}],
+  "liquidOutputDirections": [1, 3]
+}

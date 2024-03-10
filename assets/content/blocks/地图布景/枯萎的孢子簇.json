@@ -1,0 +1,11 @@
+{
+	"type": "Prop",
+	"name": "枯萎的孢子簇",
+	"variants": 3,
+	"buildCostMultiplier": 0.1,
+	"requirements": [
+		"spore-pod/1",
+	],
+	"breakSound":"break",
+	"buildVisibility": "editorOnly"
+}

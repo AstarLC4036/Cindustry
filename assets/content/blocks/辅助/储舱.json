@@ -1,0 +1,22 @@
+{
+    "requirements": [
+        "thorium/250",
+        "titanium/220",
+        "copper/300",
+    ],
+    "type": "StorageBlock",
+    "name": "储舱",
+    "size": 3,
+    "health": 780,
+    "itemCapacity": 5000,
+    "research": {
+        "parent": "便携核心",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "荒芜遗迹"
+            }
+        ]
+    },
+    "category": "effect"
+}

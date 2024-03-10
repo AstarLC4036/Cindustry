@@ -1,0 +1,51 @@
+{
+  "type": "GenericCrafter",
+  "name": "氮气分离机",
+  "description": "将大气中的氮气分离出来",
+  "size": 2,
+  "requirements": [
+    {"item": "lead", "amount": 90},
+    {"item": "graphite", "amount": 70},       {"item": "copper", "amount": 50},
+  ],
+  "category": "crafting",
+  "research": "石料粉碎机",
+  "researchCostMultiplier": 1.2,
+  "craftTime": 5,
+  "liquidCapacity": 75,
+  "consumes": {
+    "power": 2.6,
+  },
+ "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "nitrogen",
+        "alpha": 4.1
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawHeatInput"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "d4f0ff",
+        "alpha": 0.6,
+        "particleSize": 4,
+        "particles": 10,
+        "particleRad": 12,
+        "particleLife": 140
+      }
+    ]
+  },
+  "ambientSound": "electricHum",
+  "ambientSoundVolume": 0.1,
+  "regionRotated1": 3,
+  "outputLiquids": [{"liquid": "nitrogen", "amount": 0.8}],
+}

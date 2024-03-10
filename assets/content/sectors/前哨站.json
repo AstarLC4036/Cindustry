@@ -1,0 +1,11 @@
+{"localizedName": "前哨站",
+"name": "前哨站",
+	"description": "偏远地区的一座敌方前哨站 警备松懈 快速的生产单位并摧毁敌方基地 [red]不要给他们发展的机会！",
+	//"details":"",
+    "planet":"芙卡洛斯"//母星名字。
+    "sector":15//区块坐标
+    "difficulty":3//难度
+    "alwaysUnlocked": true,
+    "research":"支线-芙卡洛斯"
+	
+}

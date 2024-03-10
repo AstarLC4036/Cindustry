@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "碳化室",
+  "description": "将碳粉与钨粉混合并高温加热以生产碳化物",
+  "size": 3,
+  "category": "crafting",
+  "research": "塑钢重压机",
+  "requirements": [
+    "钨/120",
+    "titanium/20",
+    "铝/90"
+    "plastanium/30",
+    "graphite/30",
+  ],
+  "craftEffect": "none",
+  "outputItem": "碳化物/1",
+  "craftTime": 30,
+  "itemCapacity": 30,
+  "hasPower": true,
+  "hasItems": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawCrucibleFlame"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawHeatInput"
+      }
+    ]
+  },
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.11,
+  "consumes": {
+    "power": 8,
+    "items": {
+      "items": [
+        "钨/2",
+        "graphite/1"
+      ]
+    }
+  }
+}

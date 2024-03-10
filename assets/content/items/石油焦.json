@@ -1,0 +1,13 @@
+{
+	"name": "石油焦",
+	"description": "石油分馏产生的副产物，主要成分是碳，可以用于生产纤维，石墨以及用于发电",
+	"cost":1,
+	"color": "111111",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 1.5,
+	"research": "非金属"
+}

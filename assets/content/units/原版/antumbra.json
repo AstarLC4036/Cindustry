@@ -1,0 +1,88 @@
+{
+	"health": 10500,
+	"weapons":[
+		{
+			"name":"missiles-mount",
+			"y":8,
+            "x":17,
+            "reload":10,
+            "ejectEffect":"casing1",
+            "rotateSpeed":8,
+            "shootSound":"missile",
+            "rotate":true,
+            "shadow":6,
+			
+			"bullet":{
+				"type":"MissileBulletType",
+				"damage":14,
+				"speed":3,
+				"width":8,
+                "height":8,
+                "shrinkY":0,
+                "drag":-0.01,
+                "splashDamageRadius":20,
+                "splashDamage":30,
+                "ammoMultiplier":4,
+                "lifetime":50,
+                "hitEffect":"blastExplosion",
+                "despawnEffect":"blastExplosion",
+
+                "status":"blasted",
+                "statusDuration":60
+			}
+		},
+		{
+			"name":"missiles-mount",
+			"y":-8,
+            "x":17,
+            "reload":17.5,
+            "ejectEffect":"casing1",
+            "rotateSpeed":8,
+            "shootSound":"missile",
+            "rotate":true,
+            "shadow":6,
+			
+			"bullet":{
+				"type":"MissileBulletType",
+				"damage":14,
+				"speed":3,
+				"width":8,
+                "height":8,
+                "shrinkY":0,
+                "drag":-0.01,
+                "splashDamageRadius":20,
+                "splashDamage":30,
+                "ammoMultiplier":4,
+                "lifetime":50,
+                "hitEffect":"blastExplosion",
+                "despawnEffect":"blastExplosion",
+
+                "status":"blasted",
+                "statusDuration":60
+			}
+		},
+		{
+			"name":"large-bullet-mount",
+			"y":2,
+            "x":10,
+            "shootY":10,
+            "reload":6,
+            "shake":1,
+            "rotateSpeed":2,
+            "ejectEffect":"casing1",
+            "shootSound":"shootBig",
+            "rotate":true,
+            "shadow":8,
+			
+			"bullet":{
+				"type":"BasicBulletType",
+				"damage":50,
+				"speed":7,
+				"width":12,
+                "height":18,
+                "lifetime":25,
+                "shootEffect":"shootBig"
+			}
+		}
+	]
+}

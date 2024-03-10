@@ -1,0 +1,13 @@
+{
+	"name": "液氪",
+	"description": "稳定，非常稳定",
+	"alwaysUnlocked":false,
+	"color": "FFFFFF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 0.9,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": "液氩"
+	"effect":"freezing",
+}

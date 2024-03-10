@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"health": 1,
+	"name": "氧化C转E",
+	  "description": "把化学工业的氧化物转换成埃里克尔的氧化物 不需要电力 建造不需要任何的物品\n为了防止有人把它当墙用 血量设定为1",
+	"outputItem": {
+	"item": "oxide", "amount": 1
+	},
+	"itemCapacity": 100,
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 1,
+	"consumes": {
+	"items": {
+		"items": [
+	{ "item": "氧化物", "amount": 1 },
+	]	}	
+	}
+	"requirements": [
+	{ "item": "铍", "amount": 0 },
+	],
+	"category": "effect",
+	"alwaysUnlocked": true,
+}

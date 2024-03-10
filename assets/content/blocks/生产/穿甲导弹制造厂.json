@@ -1,0 +1,50 @@
+{	
+    "type": "GenericCrafter",
+	"health": 240,
+	 "description": "制造专供炮塔的穿甲导弹，使用预制导弹作为弹药能提升炮塔的伤害和范围",
+	"name": "穿甲导弹制造厂",
+	"outputItem": {
+	"item": "穿甲导弹", "amount": 3
+	},
+
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":15,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 8,
+	"items": {
+		"items": [
+	{ "item": "钨", "amount": 1 },
+	{ "item": "blast-compound", "amount": 3 },
+	{ "item": "titanium", "amount": 2 },
+	{ "item": "silicon", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "钨", "amount": 40 },
+	{ "item": "lead", "amount": 70 },
+	{ "item": "titanium", "amount": 35 },
+	{ "item": "silicon", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "石料粉碎机"
+}

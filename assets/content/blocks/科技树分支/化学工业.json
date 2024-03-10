@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "化学工业",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": {
+		"root":true,
+		"name": "芙星"
+		},
+    "size": 1
+}

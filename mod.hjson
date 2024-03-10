@@ -1,0 +1,23 @@
+#the mod name as displayed in-game
+displayName: "Chemistry Craft"
+
+#the internal name of your mod
+name: "chemistry-craft"
+
+#your name
+author: "芙安卡"
+
+#the fully qualified main class of the mod
+main: "faanka.alc.chemistrycraft"
+
+#the mod description as seen in the mod dialog
+description: "化学 一切工业的基础\n化学党最快乐的一集\n[cyan]致谢名单:\n b站 许汁哦—提供宣传支持以及一些单位的搭建思路\n b站 量子石—提供部分工厂的搭建思路\n 鸽子—提供部分单位的搭建思路\n b站 核-逝-佬—提供部分炮塔 工厂 单位的搭建思路\nb站 君鸳づ卿鸯—提供部分工厂和物品的搭建思路\n特别感谢喵子大佬提供的js技术支持\n在此还要另外感谢亚洲金属网和化工百科提供的生产技术资料\n本MOD将长期更新 目前MOD内共有十个可登陆星球 包三个原版支线星球 一个MOD支线 一个MOD主线 两个可登陆小行星带"
+
+#the mod version
+version: α0.01.7
+
+#the minimum game build required to run this mod
+minGameVersion: 145
+
+#this is a java mod
+java: true

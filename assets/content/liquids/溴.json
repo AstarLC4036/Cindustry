@@ -1,0 +1,13 @@
+{
+	"name": "溴",
+	"description": "常用于感光材料的生产以及充当化学反应中的溴化剂\n[red]极易挥发，在某些特殊情况下会爆炸，并且有一定腐蚀性!,
+	"alwaysUnlocked":false,
+	"color": "C12900",  
+	"flammability": 0.5,
+	"temperature": 0,
+	"heatCapacity": -0.5,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"effect":"酸性腐蚀",
+	"research": "液体"
+}

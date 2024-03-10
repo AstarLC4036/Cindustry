@@ -1,0 +1,44 @@
+{	
+    "type": "GenericCrafter",
+	"health": 240,
+	 "description": "将煤炭高速冲压以产出更多的石墨，但是由于冲压装置蓄力较慢，所以它的生产速度并没有石墨压缩机快",
+	"name": "石墨冲压机",
+	"outputItem": {
+	"item": "graphite", "amount": 2 
+	},
+
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawRegion",
+				"suffix":"-r",
+				"rotateSpeed":4
+			}
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1,
+	"items": {
+		"items": [
+	{ "item": "coal", "amount": 2 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 40 },
+	{ "item": "lead", "amount": 20 },
+	{ "item": "graphite", "amount": 15 },
+	{ "item": "silicon", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "石料粉碎机"
+}

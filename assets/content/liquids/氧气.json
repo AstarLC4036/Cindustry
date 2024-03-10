@@ -1,0 +1,13 @@
+{
+	"name": "氧气",
+	"description": "一种活泼的气体，常用于金属冶炼，孢子生产以及爆炸性弹药生产，也可作为某些化学反应的氧化剂",
+	"alwaysUnlocked":false,
+	"color": "B8FFFD",  
+	"gas": true,
+	"flammability": 0.8,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 0.8,
+	"research": "气体"
+}

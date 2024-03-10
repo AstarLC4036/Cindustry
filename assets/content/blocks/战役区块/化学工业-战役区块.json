@@ -1,0 +1,10 @@
+{
+    "type": "Wall",
+    "name": "化学工业-战役区块",
+    "description": "本MOD全部的战役区块均为已解锁状态 可按自己喜好去打 科技树的区块顺序为最佳游玩顺序 当然 芙星同赛普罗一样 可以去打那些数字编号的区块 目前芙星所有的数字区块共有811个 可以让你打到爽",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": "化学工业"
+    "size": 1
+}

@@ -1,0 +1,39 @@
+{	
+    "type": "GenericCrafter",
+	"health": 240,
+	 "description": "将煤炭与矿物块中的含硫矿物一同焙烧来提炼单质硫",
+	"name": "硫磺提炼工厂",
+	"outputItem": {
+	"item": "硫", "amount": 2 
+	},
+
+	"itemCapacity": 20,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 30,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 3,
+	"items": {
+		"items": [
+	{ "item": "矿物块", "amount": 2 },
+	{ "item": "coal", "amount": 1 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 40 },
+	{ "item": "lead", "amount": 20 },
+	{ "item": "graphite", "amount": 15 },
+	{ "item": "silicon", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "炼铁高炉"
+}

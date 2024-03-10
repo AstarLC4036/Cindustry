@@ -1,0 +1,9 @@
+{
+	"type": "floor",
+	"name": "白沙",
+	"variants": 3
+	"playerUnmineable":true
+    "itemDrop":"sand"
+    "attributes":
+	{"oil": 0.7 },
+}

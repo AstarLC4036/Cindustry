@@ -1,0 +1,18 @@
+{
+	"type": "Conveyor",
+	"name": "复合钛传送带",
+	"description": "向前方运输物品，比蓝带更快也更耐用",
+	"health": 80,
+	"requirements": [
+	{"item": "铁", "amount": 1},
+	{"item": "copper", "amount": 1},
+	{"item": "钨", "amount": 1},
+	{"item": "铝", "amount": 1},
+	{"item": "titanium", "amount": 1},
+	{"item": "lead", "amount": 1},
+	],
+	"category": "distribution",
+	"research":"强化钨传送带",
+	"speed": 0.13,
+	"displayedSpeed": 13
+}

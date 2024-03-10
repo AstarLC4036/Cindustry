@@ -1,0 +1,13 @@
+{
+	"name": "铁",
+	"description": "广泛用于炮塔与工厂建造以及作为一些化学反应的原料，化学式Fe",
+	"cost":1,
+	"color": "898989",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

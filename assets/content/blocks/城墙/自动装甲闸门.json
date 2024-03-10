@@ -1,0 +1,13 @@
+{
+  "type": "AutoDoor",
+  "name": "自动装甲闸门",
+  "description": "自动为靠近的已方单位开门，并且拥有较高的生命值",
+  "category": "defense",
+  "requirements": [
+    "铁/24",
+    "silicon/12"
+  ],
+  "health": 2800
+  "size": 2,
+  "research": "大型铁墙"
+}

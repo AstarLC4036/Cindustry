@@ -1,0 +1,13 @@
+{
+	"name": "烯",
+	"description": "一种用途极为广泛的有机物，[red]注意：此类物质极易燃烧和爆炸！",
+	"alwaysUnlocked":false,
+	"color": "D4FF78",  
+	"gas": true,
+	"flammability": 1.9,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 2,
+	"research": "气体"
+}

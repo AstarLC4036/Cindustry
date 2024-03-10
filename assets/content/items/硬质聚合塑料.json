@@ -1,0 +1,13 @@
+{
+	"name": "硬质聚合塑料",
+	"description": "用途非常广泛的高硬度塑料",
+	"cost":1,
+	"color": "54D0FF",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0.1,
+	"flammability": 0.2,
+	"research": "有机物"
+}

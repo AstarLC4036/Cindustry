@@ -1,0 +1,67 @@
+{
+	"type": "GenericCrafter",
+	"name": "富氯盐溶液电解机",
+	"health": 360,
+	"description": "将富含氯盐的盐溶液电解以生产氢氧化物并产生一些氯气，当氯气积满时无法工作",
+	"outputItem": {
+	"item": "氢氧化物", "amount": 2
+	},
+	"outputLiquid": {"liquid": "氯气", "amount": 0.2}, 
+	"itemCapacity": 20,
+	"size": 2,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "盐溶液",
+        "alpha": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "ebebeb",
+        "sides": 10,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "alpha": 0.7,
+        "color": "c4bdf3",
+        "glowIntensity": 0.3,
+        "glowScale": 6
+      }
+    ]
+  },
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"consumes": {
+		"power": 3,
+	"liquid": 
+	{"liquid": "盐溶液", "amount": 0.2 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 80 },
+	{ "item": "copper", "amount": 90 },
+	{ "item": "metaglass", "amount": 70},
+	{ "item": "silicon", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "盐溶液混合器"
+}

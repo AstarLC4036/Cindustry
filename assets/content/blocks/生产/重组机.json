@@ -1,0 +1,107 @@
+{
+	"type": "Separator",
+	"health": 360,
+	"name": "重组机",
+	"description": "将矿渣，熔融岩石，熔融盐和废料混合在一起并使用超高速离心机将内部原子由轻到重的分离出来，可以得到几乎所有的物质",	"details":"效率极高，需要大量的原料才能维持它最高效率运转，建议使用塑钢传送带或质量驱动器运输原料\n[red]高能耗！在启动时请确保有足够的电力供应！",
+	"results": [
+	{"item": "copper", "amount": 200},	
+	{"item": "thorium", "amount": 170},
+	{"item": "silicon", "amount": 151},
+	{"item": "titanium", "amount": 177},
+	{"item": "lead", "amount": 200},
+	{"item": "钨", "amount": 130},
+	{"item": "铁", "amount": 170},
+	{"item": "钒", "amount": 100},
+	{"item": "钪", "amount": 40},
+	{"item": "钴", "amount": 120},
+	{"item": "镍", "amount": 102},
+	{"item": "锰", "amount": 70},
+	{"item": "铝", "amount": 150},
+	{"item": "铍", "amount": 94},
+	{"item": "锌", "amount": 117},
+	{"item": "铬", "amount": 73},
+	{"item": "pyratite", "amount": 128},
+	{"item": "surge-alloy", "amount": 51},
+	{"item": "phase-fabric", "amount": 40},
+	{"item": "plastanium", "amount": 90},
+	{"item": "sand", "amount": 200},
+	{"item": "graphite", "amount": 190},
+	{"item": "metaglass", "amount": 150},
+	{"item": "fissile-matter", "amount": 49},
+	{"item": "氢氧化物", "amount": 110},
+	{"item": "氧化物", "amount": 162},
+	{"item": "碳化物", "amount": 91},
+	{"item": "石油焦", "amount": 147},
+	{"item": "砷", "amount": 82},
+	{"item": "硒", "amount": 34},
+	{"item": "硫", "amount": 163},
+	{"item": "硬质聚合塑料", "amount": 72},
+	{"item": "聚合塑料", "amount": 91},
+	{"item": "耐高温聚合塑料", "amount": 171},
+	{"item": "硼", "amount": 113},
+	{"item": "碲", "amount": 23},
+	{"item": "磷", "amount": 87},
+	{"item": "钙", "amount": 160},
+	{"item": "钠", "amount": 200},
+	{"item": "镓", "amount": 120},
+	{"item": "钾", "amount": 182},
+	{"item": "锂", "amount": 127},
+	{"item": "锗", "amount": 71},
+	{"item": "镁", "amount": 134},
+	],	
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "熔融盐"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"spinSprite": true,
+				"rotateSpeed": 20
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+			"DrawDefault"
+		]
+	},
+	"itemCapacity": 50,
+	"size": 4,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"consumes": {
+	"power": 20,
+	"items": {
+		"items": [
+	{ "item": "scrap", "amount": 3 },
+	]	}	
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "熔融岩石", "amount": 0.3},
+	{ "liquid": "熔融盐", "amount": 0.3},
+	{ "liquid": "slag", "amount": 0.3},
+	]  },
+	    
+	},
+	"requirements": [
+	{ "item": "titanium", "amount": 220 },
+	{ "item": "surge-alloy", "amount": 50 },
+	{ "item": "耐高温聚合塑料", "amount": 100 },
+	{ "item": "聚合塑料", "amount": 170 },
+	{ "item": "thorium", "amount": 190 },
+	{ "item": "phase-fabric", "amount": 80 },
+	{"item": "碳化物", "amount": 210},
+	],
+	"category": "crafting",
+	"research": "强化高炉"
+}

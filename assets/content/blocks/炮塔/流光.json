@@ -1,0 +1,138 @@
+{
+    "type":"ContinuousLiquidTurret",
+	"name": "流光",
+	"description": "一种实验型的近射程炮塔，可以将其内部的气体加热到极高的温度并喷出，对敌方造成穿透性伤害并有效毁伤敌方装甲，需要电力",
+	"size": 2,
+	"health": 700,
+	"category": "turret",
+    "research": "利刃"
+	"range": 120,
+	"targetAir":true,//攻击天空
+	"targetGround":true,
+	"rotateSpeed": 5,
+	"ammoPerShot": 5,
+	"consumes": {
+		"power": 1.5,
+	    
+	}
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+
+            {
+                "type": "DrawTurret",
+                "parts": [
+    {
+    "type":"RegionPart",
+    "mirror":true,
+    "x":0,"y":0,
+    "suffix":"-2",
+    "layer":50,
+    "under":true,
+    "moveX":0.5,
+    "moveY":1,
+    "moveRot":0
+    },
+    {
+    "type":"RegionPart",
+    "x":0,"y":0,
+    "suffix":"-top",
+    "layer":50,
+    "under":false,
+    },
+    {"type":"RegionPart",
+    "mirror":true,
+    "x":0,"y":0,
+    "suffix":"-2",
+    "layer":50,
+    "under":true,
+    "moveX":0.5,
+    "moveY":2,
+    "moveRot":0
+    },
+    ]}]},
+	"ammoTypes": {
+	    "氧气": {
+            "type":"ContinuousFlameBulletType"			"buildingDamageMultiplier": 0.5,
+            "flareColor":"59b9df"
+            "damage": 10,
+            "status": "氧化",
+			"statusDuration": 300,
+            "knockback":1.8	
+            "rangeChange":40,
+            "prieceCap":3
+                "width":2,
+			    "height":38,
+			    "length": 150
+			    "colors":["5ECEABFF","5ECEABFF","59b9df","FFFFFF"],
+	"hitEffect":{
+		"type":"ParticleEffect",
+		"lifetime":22,
+		"particles":3,
+		"cone":28,
+		"sizeFrom":4,
+		"sizeTo":2.4,
+		"baseLength":0,
+		"length":14,
+		"colorFrom":"59b9df",
+		"colorTo":"59b9df00"
+	}
+	    }
+	    "氟": {
+            "type":"ContinuousFlameBulletType"			"buildingDamageMultiplier": 0.5,
+            "flareColor":"ffe085"
+            "damage": 19,
+            "status": "酸性腐蚀",
+			"statusDuration": 480,
+            "knockback":1.8
+            "prieceCap":3
+                "width":2,
+			    "height":38,
+			    "length": 120
+			    "colors":["ceb15eff","ceb15eff","dfae59","FFFFFF"],
+	"hitEffect":{
+		"type":"ParticleEffect",
+		"lifetime":22,
+		"particles":3,
+		"cone":28,
+		"sizeFrom":4,
+		"sizeTo":2.4,
+		"baseLength":0,
+		"length":14,
+		"colorFrom":"dfae59",
+		"colorTo":"dfae5900"
+	}
+	    }
+	    "氯气": {
+            "type":"ContinuousFlameBulletType"			"buildingDamageMultiplier": 0.5,
+            "flareColor":"c5e889"
+            "damage": 14,
+            "status": "酸性腐蚀",
+			"statusDuration": 360,
+            "knockback":1.8	
+            "rangeChange":20,
+            "prieceCap":3
+                "width":2,
+			    "height":38,
+			    "length": 130
+			    "colors":["a9c15eff","a9c15eff","c5e889","FFFFFF"],
+	"hitEffect":{
+		"type":"ParticleEffect",
+		"lifetime":22,
+		"particles":3,
+		"cone":28,
+		"sizeFrom":4,
+		"sizeTo":2.4,
+		"baseLength":0,
+		"length":14,
+		"colorFrom":"c5e889",
+		"colorTo":"c5e88900"
+	}
+			    }}
+			   "requirements":[
+"钨/30",
+"graphite/40"
+"lead/70"
+"metaglass/30"
+],
+        }

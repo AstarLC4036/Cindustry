@@ -1,0 +1,63 @@
+{
+	"type": "flying",
+	"flying":true
+	"name": "哨戒",
+	"speed": 2.5,
+	"drag": 0.05,
+	"description": "搭载两台导弹发射器，拥有不错的机动性和射程",
+	"details":"虽然看起来像海军，但是实际上人家是飞艇",
+	"accel": 0.1,
+	"rotateSpeed": 10,
+	"ammoType": {
+		"type": "PowerAmmoType",
+		"totalPower": 800
+	},
+	"ammoCapacity": 120,
+	"hitSize": 10,
+	"faceTarget": true,
+	"drawMinimap": false,
+	"health": 160,
+	"armor": 2,
+	"engineOffset": 8,
+	"engineSize": 2,
+	"itemCapacity": 0,
+	"research": "特种单位工厂",
+	"weapons": [
+		{
+    "x": 1,
+    "y": 0,
+    "rotate": false,
+    "mirror": true,
+    "top": true,
+    "reload": 20,
+    "range": 140,
+    "shootSound": "missile",
+    "ammoPerShot":2
+    "bullet": {
+      "type": "BasicBulletType",          
+      "width": 6,
+      "height": 10,
+      "weaveMag": 4,
+      "weaveScale": 4,
+      "lifetime": 70,
+      "speed": 3,
+ 	  "damage": 7,
+	  "splashDamageRadius": 20,
+	  "splashDamage": 23,
+	  "status": "blasted",
+	  "statusDuration": 30
+      "trailWidth": 1.5,
+      "trailColor": "d9dcbc",
+      "trailLength": 6,
+      "trailChance": 0,	
+      "homingRange": 100,
+	  "homingPower": 0.1,
+      "hitEffect": "blastExplosion",
+	  "despawnEffect": "blastExplosion",
+    
+			}
+		},
+		    
+
+	]
+}

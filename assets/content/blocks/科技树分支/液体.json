@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "液体",
+    "description": "你会用到的所有液体",
+    "details": "这些液体对于工业来说至关重要\n[red]有些液体极具危险性，请严格按照标准进行生产",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": "化学工业",
+    "size": 1
+}

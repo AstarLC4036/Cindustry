@@ -1,0 +1,71 @@
+{
+	"type": "Separator",
+	"health": 360,
+	"name": "熔融金属分解机",
+	"description": "将熔融金属中的各种矿物成分分离出来 产物以不活泼的金属为主",
+	"results": [
+	{"item": "copper", "amount": 100},	
+	{"item": "thorium", "amount": 57},
+	{"item": "silicon", "amount": 51},
+	{"item": "titanium", "amount": 77},
+	{"item": "lead", "amount": 100},
+	{"item": "钨", "amount": 68},
+	{"item": "铁", "amount": 87},
+	{"item": "钒", "amount": 30},
+	{"item": "钪", "amount": 21},
+	{"item": "钴", "amount": 51},
+	{"item": "镍", "amount": 62},
+	{"item": "锰", "amount": 55},
+	{"item": "铝", "amount": 71},
+	{"item": "铍", "amount": 34},
+	{"item": "锌", "amount": 57},
+	{"item": "铬", "amount": 43},
+	],	
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "熔融金属"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"spinSprite": true,
+				"rotateSpeed": 6
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+			"DrawDefault"
+		]
+	},
+	"itemCapacity": 20,
+	"size": 2,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 32,
+	"consumes": {
+	"power": 1.2,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "熔融金属", "amount": 0.1},
+	]  }  },
+	"requirements": [
+	{ "item": "titanium", "amount": 20 },
+	{ "item": "metaglass", "amount": 30 },
+	{ "item": "耐高温聚合塑料", "amount": 50 },
+	{ "item": "graphite", "amount": 70 },
+	{ "item": "plastanium", "amount": 40 },
+	{ "item": "lead", "amount": 80 },
+	{"item": "碳化物", "amount": 40},
+	],
+	"category": "crafting",
+	"research": "高炉"
+}

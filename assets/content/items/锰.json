@@ -1,0 +1,13 @@
+{
+	"name": "锰",
+	"description": "一种金属元素，常用于铝合金生产，强氧化剂合成以及电池制造\n",
+	"cost":1,
+	"color": "7100A5",
+	"alwaysUnlocked":false,   
+	"hardness":2,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

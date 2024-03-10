@@ -1,0 +1,26 @@
+{  
+  "plans": [
+      {
+      "unit": "risso",
+      "requirements": [
+        "silicon/45"  
+        "锌/20"  
+        "metaglass/30"   
+        "铝/30"
+      ],
+      "time": 2400
+          
+      }
+      {
+      "unit": "retusa",
+      "requirements": [
+        "silicon/30"  
+        "titanium/30"  
+        "metaglass/40"   
+        "锌/25"   
+        "铝/30"
+      ],
+      "time": 3000
+    },
+]
+}

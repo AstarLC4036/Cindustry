@@ -1,0 +1,39 @@
+{
+	"health": 30000    
+	"abilities":
+	[
+		{
+			"type": "EnergyFieldAbility",
+			"x":0
+			"y":-7
+			"damage": 100,
+			"reload": 120,
+			"range": 300,
+			"healPercent": 7,
+			"effectRadius": 5,
+			"sectors": 6,
+			"sectorRad": 0.11,
+			"hitEffect": {
+				"type": "ParticleEffect",
+				"particles": 1,
+				"sizeFrom": 16,
+				"sizeTo": 35,
+				"baseLength": 0,
+				"lifetime": 15,
+				"colorFrom": "76D081",
+				"colorTo": "76D08100",
+				"cone": 360
+			},
+			}
+			{
+			"type": "ForceFieldAbility",
+			"sides": 10,
+			"radius": 250,
+			"max": 9500,
+			"regen": 1.55,
+			"cooldown": 360
+		}
+		    
+		
+			]
+}

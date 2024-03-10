@@ -1,0 +1,58 @@
+{
+	"type": "GenericCrafter",
+	"health": 300,
+	 "description": "氟与氯乙烯混合高温加热生成四氟乙烯然后加入五氯化锑（这里用盐代替）作为催化剂使其发生聚合反应以生成聚四氟乙烯 最后将其与液态塑钢混合以制得聚合塑料",
+	"details":"反应室需要大量反应原料 若想使其达到最高效率 普通传送带的运力是无法满足的 塑钢传送带或许是个不错的选择\n[red]注意！烯类物质和氟都极易燃烧爆炸 请务必严格按照生产标准进行生产活动"
+	"name": "聚合反应室",
+	"outputItem": {
+	"item": "聚合塑料", "amount": 5
+	},
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime":45 ,
+	"craftEffect": "smeltsmoke",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-b"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "烯"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"spinSprite": true,
+				"rotateSpeed": 5
+			},
+			"DrawDefault"
+		]
+	},
+	"consumes": {
+	"power": 8,    
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "烯", "amount": 0.2 },
+	{ "liquid": "氟", "amount": 0.2 }     ]  },
+	"items": {
+		"items": [
+	{ "item": "plastanium", "amount": 10 },
+	{ "item": "盐", "amount": 5 },
+	]	}	},
+	"requirements": [
+	{ "item": "钨", "amount": 70 },
+	{ "item": "lead", "amount": 130 },
+	{ "item": "graphite", "amount": 60 },	    { "item": "plastanium", "amount": 40 },
+	{ "item": "titanium", "amount": 70 },	    { "item": "silicon", "amount": 200 },	    { "item": "metaglass", "amount": 100 },
+	],
+	"category": "crafting",
+	"research": "塑钢重压机"
+}

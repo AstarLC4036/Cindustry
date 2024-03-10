@@ -1,0 +1,14 @@
+{
+	"name": "熔融岩石",
+	"description": "可以使用熔岩分解机从中提炼出大量非金属元素和少量金属元素，也可作为矿渣类液体弹药使用",
+	"alwaysUnlocked":false,
+	"color": "ffaa66",
+	"lightColor":"ffaa66a0",
+	"flammability": 0,
+	"temperature": 1.5,
+	"heatCapacity": -1,
+	"viscosity": 0.9,
+	"explosiveness": 0,
+	"research": "液体"
+	"effect":"melting",
+}

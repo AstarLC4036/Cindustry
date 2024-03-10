@@ -1,0 +1,13 @@
+{
+	"name": "硒",
+	"description": "一种非金属元素，用于太阳能光电池制造和化工催化剂\n",
+	"cost":1,
+	"color": "242424",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "非金属"
+}

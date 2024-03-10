@@ -1,0 +1,41 @@
+{
+	"type": "GenericCrafter",
+	"name": "污水过滤器",
+	"health": 240,
+	"description": "将污水进行物理净化 效率较低 会产生少量孢子荚 当孢子荚过多时会无法工作",
+	"outputItem": {
+	"item": "spore-pod", "amount": 1
+	},
+	"outputLiquid": {"liquid": "water", "amount": 0.1}, 
+	"itemCapacity": 14,
+	"size": 1,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-b"
+		},
+		{
+		"type":"DrawLiquidTile",
+		"drawLiquid":"water"
+		},
+		"DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"liquidCapacity": 60,
+	"craftTime": 120,
+	"consumes": {
+	"liquid": 
+	{"liquid": "污水", "amount": 0.1 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "copper", "amount": 60 },
+	{ "item": "铁", "amount": 40},
+	],
+	"category": "crafting",
+	"research": "基础大气分离机"
+}

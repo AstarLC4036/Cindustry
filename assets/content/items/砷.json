@@ -1,0 +1,13 @@
+{
+	"name": "砷",
+	"description": "一种非金属元素，常用于生产半导体材料，也可作为炮塔弹药使用",
+	"cost":1,
+	"color": "FFF2B0",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0.65,
+	"research": "非金属"
+}

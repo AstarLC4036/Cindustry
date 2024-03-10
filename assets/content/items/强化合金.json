@@ -1,0 +1,14 @@
+{
+	"name": "强化合金",
+	"description": "一种新型的耐高温耐打击合金，广泛用于制造防御，高级炮塔与单位生产"
+	"cost":1,
+	"color": "c7e1e1",
+	"charge":1.6
+	"alwaysUnlocked":false,   
+	"hardness":3,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

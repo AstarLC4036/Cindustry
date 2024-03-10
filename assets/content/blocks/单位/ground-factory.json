@@ -1,0 +1,34 @@
+{  
+    "plans": [    
+        {
+      "unit": "dagger",
+      "requirements": [
+        "lead/15",
+        "silicon/15"  
+        "铝/20"
+      ],
+      "time": 1200   
+      }
+      {
+      "unit": "crawler",
+      "requirements": [
+        "pyratite/15",
+        "silicon/15"  
+        "硫/10"  
+      ],
+      "time": 600  
+          
+      }
+      {
+      "unit": "nova",
+      "requirements": [
+        "lead/45",
+        "silicon/40"  
+        "metaglass/30"   
+        "titanium/20"
+      ],
+      "time": 2400    
+          
+      }
+      ]
+}

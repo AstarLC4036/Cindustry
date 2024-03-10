@@ -1,0 +1,53 @@
+{
+  "type": "GenericCrafter",
+  "name": "电弧坩埚",
+  "description": "将巨浪合金 铁 钨 铝在真空状态下使用高压电弧将其融化混合以生产强化合金",
+  "size": 3,
+  "category": "crafting",
+  "research": "碳化室",
+  "requirements": [
+    "氧化物/120",
+    "titanium/20",
+    "镓/90"
+    "plastanium/30",
+    "graphite/30",
+  ],
+  "craftEffect": "none",
+  "outputItem": "强化合金/2",
+  "craftTime": 30,
+  "itemCapacity": 30,
+  "hasPower": true,
+  "hasItems": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt" 
+      }		
+      {
+				"type": "DrawRegion",
+				"suffix": "-d"
+   	  },
+    ]
+  },
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.11,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        "铁/3",
+        "铝/4"  
+        "surge-alloy/2"   
+        "钨/2"
+      ]
+    }
+  }
+}

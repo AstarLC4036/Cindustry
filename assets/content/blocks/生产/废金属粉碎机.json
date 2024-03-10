@@ -1,0 +1,55 @@
+{
+
+	"type":"Separator",
+	"name":"废金属粉碎机",
+	"results": [
+	{"item": "copper", "amount": 7},	      {"item": "lead", "amount": 7},
+	{"item": "titanium", "amount": 4},
+	],
+	"details":"解离机（雾"
+	"craftEffect": "smeltsmoke",
+	"itemCapacity":40,	
+    "generateEffect": "generatespark",
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type":"DrawDefault"
+			},
+			{
+				"type":"DrawRegion",
+				//这个type允许新增旋转贴图
+				//当然，旋转速度设为0也可以新增静态贴图
+				"suffix":"-r",
+				//"贴图后缀"
+				"rotateSpeed":3
+				//贴图旋转速度
+			}
+		]
+	},
+	"consumes": {
+	"power": 1,   		
+	"items": {
+		"items": [
+	{ "item": "废金属", "amount": 1 },
+	]
+	}
+	},
+	"craftEffect":"mine",
+	"group":"drills",
+	"health":160,
+	"craftTime":30,
+	"placeableLiquid":true,
+	"requiresWater":false,
+	"hasItems":true,
+	"hasLiquids":false,
+	"hasPower":false,
+	"description":"将废金属粉碎并从中筛选出有用的物质",
+	"size":2,
+	"requirements":[
+		"copper/80",
+		"lead/80",
+	],
+	"research":"石料粉碎机",
+	"category": "crafting"
+}

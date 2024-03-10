@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name": "汞提炼器",
+	"description": "将含汞硫化物与氧化物混合加热以还原硫化物中的汞",
+	"health": 360,
+	"outputLiquid": {"liquid": "汞", "amount": 0.05},
+	"itemCapacity": 14,
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"consumes": {
+	"power": 3,
+	"items": {
+	"items": [
+	{ "item": "pyratite", "amount": 4 },
+	{ "item": "氧化物", "amount": 4 }	]	}
+	},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "metaglass", "amount": 40},
+	{ "item": "silicon", "amount": 40 },
+	{"item": "铁","amount":75},
+	{ "item": "plastanium", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "基础大气分离机"
+}

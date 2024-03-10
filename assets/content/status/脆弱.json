@@ -1,0 +1,30 @@
+{
+"name":"脆弱",
+	"damage": 0.02,	
+	"healthMultiplier":0.65,
+	"speedMultiplier":0.7,
+	"effectChance":0.6,
+	"damageMultiplier": 0.6,
+	"reloadMultiplier": 0.7,
+	"opposites": [
+		"overdrive",
+		"overclock",
+	],
+	"transitionDamage": 25,
+	"affinities": [
+		"burning",
+		"shocked",
+		"blasted",
+		"melting"
+	],
+	"effect":{	"type": "ParticleEffect",
+	"particles": 1,  
+	"baseLength": 10,
+	"length":8,
+	"lifetime": 20,
+	"sizeFrom": 1,
+	"sizeTo": 0,
+	"colorFrom": "DBDBDB",
+	"colorTo": "DBDBDB",
+	"cone":360 }
+}

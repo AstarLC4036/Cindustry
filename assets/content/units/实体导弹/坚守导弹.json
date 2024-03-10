@@ -1,0 +1,33 @@
+{
+        "type": "missile",
+	"template": "MissileUnitType",
+	
+	"name":"坚守导弹"
+	"maxRange": 6,
+	"speed":3
+	"rotateSpeed": 3
+	"lifetime":75
+	"health":100
+		
+		"weapons":[{
+		"shootCone": 360,
+		"mirror": false,
+		"shake": 6,
+		"shootOnDeath": true,
+		"shootSound": "plasmaboom",
+		
+		"bullet":{
+		"type": "ExplosionBulletType",
+		"splashDamage": 30,
+		"splashDamageRadius": 20
+		"buildingDamageMultiplier": 0.6,
+		"shootEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						"titanExplosion",
+						]
+						}
+			}
+			}
+			]
+			}

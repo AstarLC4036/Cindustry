@@ -1,0 +1,13 @@
+{
+	"name": "钾",
+	"description": "一种碱金属，广泛用于陶瓷生产，电池制造，核工业和合成人造纤维",
+	"cost":1,
+	"color": "FF8FE5",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 1,
+	"flammability": 1.2,
+	"research": "金属"
+}

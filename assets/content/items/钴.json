@@ -1,0 +1,13 @@
+{
+	"name": "钴",
+	"description": "一种金属，广泛用于合金冶炼，电池制造和单位以及炮塔的制造",
+	"cost":1,
+	"color": "FFFAC7",
+	"alwaysUnlocked":false,   
+	"hardness":3,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

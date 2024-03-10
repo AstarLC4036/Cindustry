@@ -1,0 +1,126 @@
+{
+  "type": "unitFactory",
+  "name": "特种单位工厂",
+  "description": "改进的单位工厂 可以生产特种单位 也可以生产普通单位且速度更快 特种单位造价要比普通单位更高，但性能也更好",
+  "itemCapacity":100,	
+  "size": 3,
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "闪击",
+      "requirements": [
+        "lead/30",
+        "silicon/30"  
+        "titanium/10"  
+        "铁/20"  
+        "graphite/50"  
+        "钨/25"
+      ],
+      "time": 1800
+    },  
+    {
+      "unit": "坚守",
+      "requirements": [
+        "lead/20",
+        "silicon/20"  
+        "titanium/30"  
+        "锌/20"  
+        "metaglass/30"  
+        "硫/25"
+      ],
+      "time": 2000
+    },
+    {
+      "unit": "哨戒",
+      "requirements": [
+        "lead/15",
+        "silicon/15"  
+        "钨/10"  
+        "metaglass/10"   
+        "graphite/20"   
+        "铝/20"
+      ],
+      "time": 1200    
+      }
+      {
+      "unit": "dagger",
+      "requirements": [
+        "lead/15",
+        "silicon/15"  
+        "铝/20"
+      ],
+      "time": 600   
+      }
+      {
+      "unit": "crawler",
+      "requirements": [
+        "pyratite/15",
+        "silicon/15"  
+        "硫/10"  
+      ],
+      "time": 300  
+          
+      }
+      {
+      "unit": "nova",
+      "requirements": [
+        "lead/45",
+        "silicon/40"  
+        "metaglass/30"   
+        "titanium/20"
+      ],
+      "time": 1200    
+          
+      }
+      {
+      "unit": "flare",
+      "requirements": [
+        "silicon/45"  
+      ],
+      "time": 750  
+      }
+      {
+      "unit": "mono",
+      "requirements": [
+        "lead/35",
+        "silicon/35"  
+        "钨/20"  
+      ],
+      "time": 1050
+          
+      }
+      {
+      "unit": "risso",
+      "requirements": [
+        "silicon/45"  
+        "锌/20"  
+        "metaglass/30"   
+        "铝/30"
+      ],
+      "time": 1350
+          
+      }
+      {
+      "unit": "retusa",
+      "requirements": [
+        "silicon/30"  
+        "titanium/30"  
+        "metaglass/40"   
+        "锌/25"   
+        "铝/30"
+      ],
+      "time": 1500
+    },
+  ],
+  "requirements": [
+    "copper/50",
+    "lead/30",
+    "silicon/40",
+    "metaglass/20"  
+    "锌/15"
+  ],
+  "category": "units",
+  "research": "化学工业"
+}

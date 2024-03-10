@@ -1,0 +1,72 @@
+{
+	"type": "GenericCrafter",
+	"name": "硫酸合成工厂",
+	"description": "将硫化物与氧气混合加热并与水混合以低效率的制取硫酸",
+	"health": 360,
+	"outputLiquid": {"liquid": "硫酸", "amount": 0.05},
+	"itemCapacity": 14,
+	"size": 3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-b"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "硫酸",
+        "alpha": 2
+      },
+      {
+        "type": "DrawBubbles",
+        "color": "F6FFCF",
+        "sides": 10,
+        "recurrence": 3,
+        "spread": 6,
+        "radius": 1.5,
+        "amount": 20
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "alpha": 0.7,
+        "color": "c4bdf3",
+        "glowIntensity": 0.3,
+        "glowScale": 6
+      }
+    ]
+  },
+	"craftEffect": "smeltsmoke",
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 180,
+	"consumes": {
+	"power": 3,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "氧气", "amount": 0.15 },
+	{ "liquid": "water", "amount": 0.1 }     ]  },
+	"items": {
+		"items": [
+	{ "item": "pyratite", "amount": 4 },	
+	]	}	},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "metaglass", "amount": 90},
+	{ "item": "silicon", "amount": 60 },
+	{"item": "铝","amount":75},
+	{ "item": "plastanium", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "盐溶液混合器"
+}

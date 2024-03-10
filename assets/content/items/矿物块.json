@@ -1,0 +1,14 @@
+{
+	"name": "矿物块",
+	"description": "含有各类矿物，所有工业的基础",
+	"details":"作者最开始是想把每种矿物都做出来，但是发现太难了，一方面是要画巨量的贴图，一方面采矿机想要产出多种矿物就必须套解离机的type，解离机类工厂一旦产物多了产出单个物品的量就会大幅降低而且由于产出物品随机，对于物流很不友好，就只好单独做一个大的矿物类别出来了"
+	"cost":1,
+	"color": "CA7F00",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "原矿"
+}

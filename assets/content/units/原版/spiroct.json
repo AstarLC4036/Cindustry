@@ -1,0 +1,52 @@
+{
+	"health": 1125,
+	"weapons":[
+		{
+			"name":"spiroct-weapon",
+			"shootY":4,
+            "reload":7.5,
+            "ejectEffect":"none",
+            "recoil":2,
+            "rotate":true,
+            "shootSound":"sap",
+
+            "x":8.5,
+            "y":-1.5,
+			
+			"bullet":{
+				"type":"SapBulletType",
+				"sapStrength":0.4,
+                "length":75,
+                "damage":20,
+                "shootEffect":"shootSmall",
+                "hitColor":"bf92f9",
+                "despawnEffect":"none",
+                "width":0.54,
+                "lifetime":35,
+                "knockback":-1.24
+			}
+		},
+		{
+			"name":"mount-purple-weapon",
+			"reload":20,
+            "rotate":true,
+            "x":4,
+            "y":3,
+            "shootSound":"sap",
+			
+			"bullet":{
+				"type":"SapBulletType",
+				"sapStrength":0.8,
+                "length":40,
+                "damage":16,
+                "shootEffect":"shootSmall",
+                "hitColor":"bf92f9",
+				"color":"bf92f9",
+                "despawnEffect":"none",
+                "width":0.4,
+                "lifetime":25,
+                "knockback":-0.65
+			}
+		}
+	]
+}

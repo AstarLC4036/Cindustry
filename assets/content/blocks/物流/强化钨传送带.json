@@ -1,0 +1,16 @@
+{
+	"type": "Conveyor",
+	"name": "强化铁传送带",
+	"description": "向前方运输物品，比灰带快也更耐用",
+	"health": 50,
+	"details":"别问我为啥它文件名叫强化钨传送带，要问就是我懒得重命名图片了",
+	"requirements": [
+	{"item": "铁", "amount": 1},
+	{"item": "copper", "amount": 1},
+	{"item": "lead", "amount": 1},
+	],
+	"category": "distribution",
+	"research":"化学工业",
+	"speed": 0.08,
+	"displayedSpeed": 7
+}

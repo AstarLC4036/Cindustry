@@ -1,0 +1,48 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "石油固化机",
+	  "description": "将石油进行高速离心以产出更多的煤炭",
+	"outputItem": {
+	"item": "coal", "amount": 2
+	},
+	"itemCapacity": 20,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":15,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 30,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.75,
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "oil", "amount": 0.2 }     ]  },
+	}
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "titanium", "amount": 30 },
+	{ "item": "铝", "amount": 55 },
+	{ "item": "silicon", "amount": 35 },
+	],
+	"category": "crafting",
+	"research": "大型窑炉"
+}

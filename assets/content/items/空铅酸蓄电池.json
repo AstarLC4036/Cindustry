@@ -1,0 +1,14 @@
+{
+	"name": "空铅酸蓄电池",
+	"description":"小巧且便于携带的电池，将其放入放电器中可以产生电力，可以充电[cyan]现在处于空电状态\n[red]注意：在一些特殊环境下它们很危险！"
+	"hardness": 2,
+	"cost":8,
+	"color": "25C9AB",
+	"healthScaling": 1.4,
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"charge":0,
+	"research": "干电池"
+}

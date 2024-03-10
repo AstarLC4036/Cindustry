@@ -1,0 +1,13 @@
+{
+	"name": "钠",
+	"description": "一种碱金属，其十分活泼，常温就能与氧气反应，常用做一些稀土矿物还原剂\n[red]千万不要把它丢进水里！",
+	"cost":1,
+	"color": "C0C0C0",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 1,
+	"flammability": 2.3,
+	"research": "金属"
+}

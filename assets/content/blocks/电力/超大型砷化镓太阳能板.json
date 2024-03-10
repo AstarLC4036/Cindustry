@@ -1,0 +1,34 @@
+{
+  "type": "SolarGenerator",
+  "size": 4,
+  "health":1750,
+  "name": "超大型砷化镓太阳能板",
+  "description": "拥有比普通硅光太阳能板更高的光电转换效率，造价也更昂贵",
+  "details":"虽然砷及其化合物有剧毒（甚至能够杀死在赛普罗上生命力顽强的孢子），但是人们为了获得更多的能源仍在大量使用这种太阳能板",
+  "hasPower": true,
+  "powerProduction": 16,
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 320
+    },
+    {
+      "item": "砷",
+      "amount": 360
+    },
+    {
+      "item": "镓",
+      "amount": 360
+    },
+    {
+      "item": "钪",
+      "amount": 120
+    },
+    {
+      "item": "silicon",
+      "amount": 480
+    }
+  ],
+  "category": "power",
+  "research": "大型砷化镓太阳能板"
+}

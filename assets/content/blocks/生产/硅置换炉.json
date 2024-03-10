@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "硅置换炉",
+	  "description": "使用碳含量更高的石墨作为还原剂来高效还原硅",
+	"outputItem": {
+	"item": "silicon", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 40,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1.5,
+	"items": {
+		"items": [
+	{ "item": "sand", "amount": 3 },
+	{ "item": "graphite", "amount": 1 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 30 },
+	{ "item": "铁", "amount": 25 },
+	{ "item": "titanium", "amount": 20 },
+	],
+	"category": "crafting",
+	"research": "石墨冲压机"
+}

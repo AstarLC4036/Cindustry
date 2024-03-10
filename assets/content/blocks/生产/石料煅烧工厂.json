@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"health": 260,
+	 "description": "将石料煅烧以生产氧化物，使用煤炭作为副加热源",
+	"name": "石料煅烧工厂",
+	"outputItem": {
+	"item": "氧化物", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 240,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 1,
+	"items": {
+		"items": [
+	{ "item": "石料", "amount": 2 },
+	{ "item": "coal", "amount": 1 },
+	]	}	},
+	"requirements": [
+	{ "item": "copper", "amount": 125 },
+	{ "item": "lead", "amount": 90 },
+	{ "item": "graphite", "amount": 60 },	    { "item": "silicon", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "炼铁高炉"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "name": "芙星的资源", 
+    "description": "注：此科技树仅用于获取芙星全部资源的信息",
+    "details": "因为作者想让玩家们在赛普罗就能够使用化学工业的物品，所以让研究消耗赛普罗的资源，但是缺点显而易见，玩家们看不到芙星的资源，于是作者在合并科技树or降低可玩性之间选择了or——新增科技树（    ）",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": {
+		"root":true,
+		"name": "行星物品-芙星"
+		"planet":"芙星"
+		},
+    "size": 1
+}

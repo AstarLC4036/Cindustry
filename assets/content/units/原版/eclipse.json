@@ -1,0 +1,84 @@
+{
+	"health": 25000,
+	"weapons":[
+		{
+			"name":"large-laser-mount",
+			"shake":4,
+            "shootY":9,
+            "x":18,
+            "y":5,
+            "rotateSpeed":2,
+            "reload":22.5,
+            "recoil":4,
+            "shootSound":"laser",
+            "shadow":20,
+            "rotate":true,
+
+			
+			"bullet":{
+				"type":"LaserBulletType",
+				"damage":90,
+                "sideAngle":20,
+                "sideWidth":1.5,
+                "sideLength":80,
+                "width":25,
+                "length":200,
+                "shootEffect":"shockwave",
+                "colors":["ec7458aa", "ff9c5a","[white]"],
+			}
+		},
+		{
+			"name":"large-artillery",
+			"x":11,
+            "y":27,
+            "rotateSpeed":2,
+            "reload":4.5,
+            "shootSound":"shoot",
+            "shadow":7,
+            "rotate":true,
+            "recoil":0.5,
+			
+			"bullet":{
+				"type":"FlakBulletType",
+				"damage":5,
+				"speed":4,
+				"shootEffect":"shootBig",
+                "ammoMultiplier":4,
+                "splashDamage":42,
+                "splashDamageRadius":25,
+                "collidesGround":true,
+                "lifetime":38,
+
+                "status":"blasted",
+                "statusDuration":60,
+			}
+		},
+		{
+			"name":"large-artillery",
+			"y":-13,
+            "x":20,
+            "reload":12,
+            "ejectEffect":"casing1",
+            "rotateSpeed":7,
+            "shake":1,
+            "shootSound":"shoot",
+            "rotate":true,
+            "shadow":12,
+			
+			"bullet":{
+				"type":"FlakBulletType",
+				"damage":5,
+				"speed":4,
+				"shootEffect":"shootBig",
+                "ammoMultiplier":4,
+                "splashDamage":42,
+                "splashDamageRadius":25,
+                "collidesGround":true,
+                "lifetime":38,
+
+                "status":"blasted",
+                "statusDuration":60,
+			}
+		}
+	]
+}

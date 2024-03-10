@@ -1,0 +1,54 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "塑钢重压机",
+	  "description": "使用石油，钛和氢氧化物更高效的生产塑钢",
+	"outputItem": {
+	"item": "plastanium", "amount": 10
+	},
+	"itemCapacity": 20,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":5,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 180,
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"consumes": {
+	"power": 2.5,
+	"items": {
+		"items": [
+	{ "item": "氢氧化物", "amount": 2 },
+	{ "item": "titanium", "amount": 2 },
+	]	}
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "oil", "amount": 0.5 }     ]  },
+	}
+	"requirements": [
+	{ "item": "copper", "amount": 75 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 40 },
+	{ "item": "titanium", "amount": 30 },
+	{ "item": "铝", "amount": 55 },
+	{ "item": "钨", "amount": 35 },
+	],
+	"category": "crafting",
+	"research": "石油固化机"
+}

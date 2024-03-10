@@ -1,0 +1,13 @@
+{
+	"name": "镍",
+	"description": "一种金属，常用于生产镍铬合金以及电池制造，也可作为催化剂和炮塔弹药使用",
+	"cost":1,
+	"color": "575757",
+	"alwaysUnlocked":false,   
+	"hardness":4,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "金属"
+}

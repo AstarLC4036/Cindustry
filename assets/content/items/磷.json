@@ -1,0 +1,13 @@
+{
+	"name": "磷",
+	"description": "一种非金属元素，常用于磷酸生产和爆炸混合物的生产，也可直接作为燃烧性弹药使用",
+	"cost":1,
+	"color": "5C0001",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 1.75,
+	"research": "非金属"
+}

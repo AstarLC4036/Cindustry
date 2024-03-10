@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "原矿",
+    "description": "你会用到的所有原矿",
+    "details": "这些矿物对于工业来说至关重要\n[red]有些矿物具有一定危险性，请严格按照标准进行采矿活动",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": "化学工业",
+    "size": 1
+}

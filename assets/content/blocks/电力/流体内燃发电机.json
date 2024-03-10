@@ -1,0 +1,56 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "流体内燃发电机",
+  "description": "燃烧可燃流体发电，发电量与可燃性成正比",
+  "size": 3,
+  "hasPower": true,
+  "hasliquids": true,
+  "itemDuration": 90,
+  "powerProduction": 5,
+	"consumes":{
+	    "liquidFlammable":{
+	        "minFlammability":1,"amount":0.2},
+	    
+	}
+      
+  "drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-r",
+				"rotateSpeed":10,
+				"rotation":45
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-d"
+			},
+		]
+	},
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 70
+    },
+    {
+      "item": "铁",
+      "amount": 35
+    },
+    {
+      "item": "铝",
+      "amount": 50
+    }
+  ],
+  "category": "power",
+  "research": "中型硅光太阳能板"
+}

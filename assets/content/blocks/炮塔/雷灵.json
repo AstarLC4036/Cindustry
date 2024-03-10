@@ -1,0 +1,92 @@
+{
+	"type": "ItemTurret",
+	"name": "雷灵",
+	"description": "向附近的敌人发射5道分散的穿透性激光束击穿敌人及其护盾",
+	"health": 3250,
+	"size": 3,
+	"reload": 30,
+	"range": 100,
+	"maxAmmo": 48,
+	"recoilTime": 30,
+	"recoil": 3,
+	"consumes": {
+		"coolant": {
+			"amount": 0.3,
+			"optional": true
+		}
+	},
+	"shoot": {
+	    "type": "ShootSpread",
+		"shots": 5,
+		"spread": 15,
+	},
+	"ammoPerShot": 3,
+	"shootSound": "shotgun",
+	"targetGround": true,
+	"targetAir": true,
+	"inaccuracy": 1,
+	"shake": 3,
+	"shootCone": 20,
+	"rotateSpeed": 9,
+	"ammoTypes": {
+		"titanium": {
+			"type": "ShrapnelBulletType",
+			"reloadMultiplier": 1.3,
+			"width": 8,
+			"length": 100,
+			"damage": 150,
+			"ammoMultiplier": 2,
+			"pierce": true
+		},
+		"thorium": {
+			"type": "ShrapnelBulletType",
+			"reloadMultiplier": 1,
+			"length": 100,
+			"damage": 200,
+			"width": 8,
+			"fromColor": "FF69B4",
+			"toColor": "FF69B4",
+			"ammoMultiplier": 4,
+			"pierce": true,
+			"shootEffect": "thoriumShoot"
+		},
+		"强化合金": {
+			"type": "ShrapnelBulletType",
+			"rangeChange":20,
+			"length": 150,
+			"damage": 250,
+			"width": 8,		                          "fromColor": "DDDDDD",
+			"toColor": "DDDDDD",
+			"ammoMultiplier": 2,
+			"pierce": true,
+			}
+		},
+	"requirements": [
+		{
+			"item": "graphite",
+			"amount": 50
+		},
+		{
+			"item": "thorium",
+			"amount": 70
+		},
+		{
+			"item": "titanium",
+			"amount": 130
+		}		
+		{
+			"item": "铁",
+			"amount": 65
+		}
+		{
+			"item": "copper",
+			"amount": 200
+		}
+				{
+			"item": "silicon",
+			"amount": 40
+		}
+	],
+	"category": "turret",
+	"research": "齐袭"
+}

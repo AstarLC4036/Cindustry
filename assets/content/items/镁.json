@@ -1,0 +1,14 @@
+{
+	"name": "镁",
+	"description": "一种活泼的金属元素，单质较为柔软，常用于铝合金和稀土合金的生产以及爆炸混合物的生产",
+	"cost":1,
+	"color": "D3D3D3",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 2,
+	"research": "金属",
+	"details":"你的镁偷走了我的锌"
+}

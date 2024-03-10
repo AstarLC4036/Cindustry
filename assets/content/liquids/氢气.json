@@ -1,0 +1,13 @@
+{
+	"name": "氢气",
+	"description": "一种活泼的气体，常用于有机合成和金属冶炼，[red]注意：氢气极易燃烧和爆炸！",
+	"alwaysUnlocked":false,
+	"color": "D5E8FF",  
+	"gas": true,
+	"flammability": 2.5,
+	"temperature": 0.5,
+	"heatCapacity": 0,
+	"viscosity": 0,
+	"explosiveness": 2,
+	"research": "气体"
+}

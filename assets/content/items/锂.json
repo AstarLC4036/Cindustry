@@ -1,0 +1,13 @@
+{
+	"name": "锂",
+	"description": "一种碱金属，广泛用于各种电力系统，高性能电池和高阶武器的制造，其十分活泼，常温下就能与氧气反应，[red]注意！不要把它丢到水里！",
+	"cost":1,
+	"color": "FFFAB0",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 1.25,
+	"flammability": 0.5,
+	"research": "金属"
+}

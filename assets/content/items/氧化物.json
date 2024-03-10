@@ -1,0 +1,13 @@
+{
+	"name": "氧化物",
+	"description": "广泛用于陶瓷生产，催化剂，电力系统以及用作氧化剂\n[cyan]因为屑芙安卡不会搞科技树以及星球科技互通，所以就只能单独把e星的物品做出来了（",
+	"cost":1,
+	"color": "FCFFD3",
+	"alwaysUnlocked":false,   
+	"hardness":1,
+	"healthScaling": 0,
+	"radioactivity": 0,
+	"explosiveness": 0.7,
+	"flammability": 1.1,
+	"research": "无机化合物"
+}

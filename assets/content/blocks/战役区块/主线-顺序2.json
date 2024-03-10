@@ -1,0 +1,10 @@
+{
+    "type": "Wall",
+    "name": "主线-顺序2",
+    "description": " 上手难度相较于主线顺序2更简单 适合没接触过MOD的玩家游玩 顺序2是非正常的主线走法 比顺序1更简单",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"research": "化学工业-战役区块"
+    "size": 1
+}

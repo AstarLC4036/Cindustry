@@ -1,0 +1,13 @@
+{
+	"name": "熔融金属",
+	"description": "熔融的废金属，可以使用金属分解机从中提炼出大量金属元素和少量非金属元素，也可作为矿渣类液体弹药使用",
+	"alwaysUnlocked":false,
+	"color": "ffcd66", 
+	"lightColor":"ffcd66a0",
+	"flammability": 0,
+	"temperature": 3,
+	"heatCapacity": -1,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": "液体"
+}

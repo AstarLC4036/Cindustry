@@ -1,0 +1,43 @@
+{
+  "type": "MassDriver",
+  "name": "质量投掷器",
+  "health": 160,
+  "description": "一种近距离的物品发射器，占地小且建造方便，是中期常用的一种物流单位",
+  "itemCapacity": 30,
+  "reload": 20,
+  "range": 88,
+  "size": 1,
+  "recoilTime": 15,
+  "recoil": 3,
+  "consumes": {
+    "power": 0.5
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 75
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "titanium",
+      "amount": 25
+    }
+    {
+      "item": "铝",
+      "amount": 30
+    }
+    {
+      "item": "铁",
+      "amount": 25
+    }
+    {
+      "item": "钨",
+      "amount": 40
+    }
+  ],
+  "category": "distribution",
+  "research": "复合钛传送带"
+}
