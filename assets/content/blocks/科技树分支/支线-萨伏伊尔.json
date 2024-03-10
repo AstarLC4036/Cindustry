@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "化学工业-萨伏伊尔",   
+    "description": "一颗位于宜居带内沿的海洋行星，几乎没有任何可供落脚的陆地，我们的探测器传回的资料告诉我们这颗星球已经拥有了基础的藻类-真菌-细菌生态圈，但目前仍然没有出现无脊椎动物\n[red]既然没有落脚点，那就落到海底吧！",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"size": 1
+    "research": {
+		"root":true,
+		"name": "萨伏伊尔"
+		"planet":"tantros"
+		},
+}

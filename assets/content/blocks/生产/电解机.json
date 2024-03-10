@@ -9,7 +9,7 @@
     {"item": "metaglass", "amount": 5},
   ],
   "category": "crafting",
-  "research": "基础大气分离机",
+  "research": "石料粉碎机",
   "researchCostMultiplier": 1.2,
   "rotate": true,
   "invertFlip": true,

@@ -9,5 +9,6 @@
 	"radioactivity": 0,
 	"explosiveness": 2,
 	"flammability": 0,
-	"research": "穿甲导弹制造厂"
+	"research": "穿甲导弹"
+	"hidden":true
 }

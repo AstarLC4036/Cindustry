@@ -4,7 +4,7 @@
 	"alwaysUnlocked":false,
 	"color": "F6DAFF",  
 	"gas": true,
-	"flammability": 1,
+	"flammability": 0.9,
 	"temperature": 0,
 	"heatCapacity": 0,
 	"viscosity": 0,

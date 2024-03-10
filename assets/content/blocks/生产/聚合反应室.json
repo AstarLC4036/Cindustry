@@ -54,5 +54,5 @@
 	{ "item": "titanium", "amount": 70 },	    { "item": "silicon", "amount": 200 },	    { "item": "metaglass", "amount": 100 },
 	],
 	"category": "crafting",
-	"research": "塑钢重压机"
+	"research": "烷烃裂解室"
 }

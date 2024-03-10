@@ -1,4 +1,6 @@
 {
-	"research": "金属"
-	"alwaysUnlocked": true,
+	"research": "裂变反应堆"
+	"alwaysUnlocked": false,
+	"radioactivity":0
+	"hidden":false
 }

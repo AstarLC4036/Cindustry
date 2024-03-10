@@ -1,10 +1,10 @@
 {
     "type": "Reconstructor",
     "name": "数增级特种单位重构工厂",
-    "description": "改良的数增级单位重构工厂 将输入的特种单位和普通单位升级到第二等级 比普通数增级单位重构工厂耗费的资源更少",
+    "description": "改良的数增级单位重构工厂 将输入的特种单位和普通单位升级到第二等级 比普通数增级单位重构工厂生产时间更短",
     "health": 1550,
     "size": 3,
-    "constructTime": 600,
+    "constructTime": 480,
     "itemCapacity":50,	
     "upgrades": [
         ["闪击", "偷袭"],
@@ -21,8 +21,8 @@
         "power": 4,
         "items": {
             "items": [
-              "silicon/20",
-              "graphite/25", 
+              "silicon/40",
+              "graphite/40", 
               "metaglass/20" 
               "氧化物/15"
             ]

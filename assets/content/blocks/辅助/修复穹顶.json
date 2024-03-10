@@ -9,7 +9,7 @@
 	"healPercent": 8,
 	"phaseBoost": 16,
 	"phaseRangeBoost": 40,
-	"canOverdrive": false,
+	"canOverdrive": true,
 	"consumes": {
 		"power": 6,
 		"items": {

@@ -1,0 +1,14 @@
+{
+	"type": "Router",
+	"name":"抗压路由器"
+	"health": 50,
+	"size": 1,
+	"speed": 1.0
+	"itemCapacity": 5,
+	"speedBoost": 2,
+	"requirements": [
+		{ "item": "钴", "amount": 3 },
+	],
+	"category": "distribution",
+	"research": "抗压交叉器"
+}

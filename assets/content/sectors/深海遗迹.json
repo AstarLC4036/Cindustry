@@ -1,0 +1,11 @@
+{"localizedName": "深海遗迹",
+"name": "深海遗迹",
+	"description": "一座未知文明遗留下来的水下殖民站点，早已残破不堪，是一个不错的落脚点",
+	//"details":"",
+    "planet":"tantros"//母星名字。
+    "sector":10//区块坐标
+    "difficulty":1//难度
+    "alwaysUnlocked": true,
+    "research":"初级强化核心"
+	
+}

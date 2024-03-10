@@ -5,8 +5,8 @@
   "size": 2,
   "hasPower": true,
   "hasItems": true,
-  "itemDuration": 90,
-  "powerProduction": 6,
+  "itemDuration": 60,
+  "powerProduction": 4,
   "consumes": {
     "items": {
       "items": [

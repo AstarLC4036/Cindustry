@@ -3,10 +3,8 @@
 	"description": "一种无机强酸，有很多用处，也可作为腐蚀性液体弹药使用\n[red]你是怎么敢把它通入炮塔当冷却剂的啊！",
 	"alwaysUnlocked":false,
 	"color": "E8FFA8",  
-	"flammability": 0,
-	"temperature": 0,
-	"heatCapacity": -0.5,
-	"viscosity": 0.3,
+	"flammability": 0.3,
+	"heatCapacity":-1,
 	"explosiveness": 0,
 	"effect":"酸性腐蚀",
 	"research": "液体"

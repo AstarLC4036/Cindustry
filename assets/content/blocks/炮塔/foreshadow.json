@@ -1,0 +1,127 @@
+{
+	"range": 720,
+	"rotateSpeed": 3,
+	"fogRadiusMultiplier": 0.6888,
+	"canOverdrive": false,
+	"consumes": {
+		"power": 18
+	},
+	"ammoTypes": {
+		"surge-alloy": {
+			"type": "PointBulletType",
+			"hitEffect": "instHit",
+			"smokeEffect": "smokeCloud",
+			"trailEffect": "instTrail",
+			"despawnEffect": "instBomb",
+			"damage": 1450,
+			"hitShake": 6,
+			"ammoMultiplier": 1,
+			"lightningDamage": 40,
+			"lightning": 7,
+			"lightningLength": 15,
+			"speed": 200,
+			"lifetime": 60,
+			"shootEffect": "instShoot",			        "status": "shocked",
+			"statusDuration": 300,
+			"buildingDamageMultiplier": 0.3
+		},
+		"强化合金": {
+			"type": "PointBulletType",
+			"buildingDamageMultiplier": 0.3,				
+			"shootEffect": "instShoot",
+		/*	"shootEffect": {
+				"type": "WaveEffect",
+				"lifetime": 20,
+				"sizeFrom": 5,
+				"sizeTo": 80,
+				"strokeFrom": 20,
+				"strokeTo": 0,
+				"colorFrom": "def4ff",
+				"colorTo": "8fdaff"
+			},*/
+			//炮管开火时效果
+			"despawnEffect": {
+				"type": "ParticleEffect",
+				"particles": 13,
+				"sizeFrom": 8,
+				"sizeTo": 0,
+				"length": 100,
+				"baseLength": 0,
+				"lifetime": 13,
+				"colorFrom": "def4ff",
+				"colorTo": "8fdaff",
+				"cone": 60
+			},
+			//炮弹落地爆炸效果
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 1,
+						"sizeFrom": 17,
+						"sizeTo": 0,
+						"length": 0,
+						"baseLength": 0,
+						"lifetime": 30,
+						"colorFrom": "def4ff",
+						"colorTo": "8fdaff",
+						"cone": 60
+					},
+					{
+						"type": "WaveEffect",
+						"lifetime": 20,
+						"sizeFrom": 5,
+						"sizeTo": 130,
+						"strokeFrom": 3,
+						"strokeTo": 0,
+						"colorFrom": "def4ff",
+						"colorTo": "8fdaff"
+					}
+				]
+			},
+			"smokeEffect": "smokeCloud",
+			"trailEffect": {
+				"type": "ParticleEffect",
+				"particles": 1,
+				"baseLength": 0.1,
+				"length": 0.1,
+				"lifetime": 30,
+				"line": true,
+				"randLength": false,
+				"lenFrom": 11,
+				"lenTo": 11,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "def4ff",
+				"colorTo": "8fdaff",
+				"cone": 0
+			},//炮弹飞行时产生的效果
+			"trailSpacing": 10,
+			"hitShake": 6,
+			"speed": 200,
+			"lifetime": 60,
+			"ammoMultiplier": 1,
+			"status": "electrified",
+			"statusDuration": 300,
+			"hitSound": "none",
+			"damage": 1750,
+			"fragBullets": 17,
+			"fragBullet": {
+				"trailSpacing": 8,
+				"hitShake": 3,
+				"speed": 20,	
+			 "buildingDamageMultiplier": 0.3,
+				"type":"LightningBulletType"
+				"lifetime": 8,	
+				"colorFrom": "def4ff",
+				"colorTo": "8fdaff",
+				"damage": 217	
+				"status": "electrified",
+		    	"statusDuration": 150,
+			}
+		},
+
+}
+    
+}

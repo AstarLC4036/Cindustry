@@ -57,7 +57,7 @@
 	{ "liquid": "water", "amount": 0.1 }     ]  },
 	"items": {
 		"items": [
-	{ "item": "pyratite", "amount": 4 },	
+	{ "item": "pyratite", "amount": 3 },	
 	]	}	},
 	"requirements": [
 	{ "item": "lead", "amount": 70 },
@@ -68,5 +68,5 @@
 	{ "item": "plastanium", "amount": 15 }
 	],
 	"category": "crafting",
-	"research": "盐溶液混合器"
+	"research": "废金属粉碎机"
 }

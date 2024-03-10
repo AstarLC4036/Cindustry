@@ -1,0 +1,12 @@
+{
+    "name": "硬锰矿",
+    "type": "OreBlock",
+    "vaviants": 3,
+    "playerUnmineable": true,
+    "itemDrop": "锰",
+    "mapColor": "b6ccd0",
+    "useColor": true,
+    "oreDefault": true,
+    "oreThreshold": 0.83,
+    "oreScale": 35
+}

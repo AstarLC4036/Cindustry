@@ -75,10 +75,10 @@
 	
 	"allowLaunchToNumbered":false
 	
-	"defaultCore": "core-shard", //星球默认核心
+	"defaultCore": "初级强化核心", //星球默认核心
 	"parent": "tantros", //星球绕什么公转
 	"solarSystem": "sun", //星系系统
 	"launchCandidates": [],	
-	"hiddenItems": [ "carbide","oxide","tungsten","beryllium"
-	] //可以从这个星球前往的行星。 可能没用，因为行星际加速器仍然不工作
+	"hiddenItems": [ "carbide","oxide","tungsten","beryllium","blast-compound""pyratite","plastanium","silicon","thorium","titanium","lead","copper"]
+	//可以从这个星球前往的行星。 可能没用，因为行星际加速器仍然不工作
 }

@@ -1,7 +1,8 @@
 {
     "type": "Wall",
     "name": "化学工业-芙卡洛斯",
-    "health": 0,
+    "health": 0,   
+    "description": "一颗位于宜居带外沿的行星，气候较为寒冷，由于它离它的母星太近了，母星的引力对它的影响也很大，所以这颗星球的板块活动相对频繁，地震也时长发生，当然，板块活动带来的不止有灾害，还有稀缺的资源",
     "buildVisibility": "hidden",
     "alwaysUnlocked": true,
     "size": 1

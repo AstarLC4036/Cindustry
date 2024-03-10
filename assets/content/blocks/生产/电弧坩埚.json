@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "电弧坩埚",
-  "description": "将巨浪合金 铁 钨 铝在真空状态下使用高压电弧将其融化混合以生产强化合金",
+  "description": "将巨浪合金 钍 钨 铝在真空状态下使用高压电弧将其融化混合以生产强化合金",
   "size": 3,
   "category": "crafting",
   "research": "碳化室",
@@ -43,7 +43,7 @@
     "power": 6,
     "items": {
       "items": [
-        "铁/3",
+        "thorium/3",
         "铝/4"  
         "surge-alloy/2"   
         "钨/2"

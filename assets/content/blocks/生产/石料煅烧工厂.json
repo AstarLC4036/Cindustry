@@ -11,7 +11,7 @@
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 240,
+	"craftTime": 90,
 	"craftEffect": "smeltsmoke",
 	"consumes": {
 	"power": 1,
@@ -26,5 +26,5 @@
 	{ "item": "graphite", "amount": 60 },	    { "item": "silicon", "amount": 40 },
 	],
 	"category": "crafting",
-	"research": "炼铁高炉"
+	"research": "硫磺提炼工厂"
 }

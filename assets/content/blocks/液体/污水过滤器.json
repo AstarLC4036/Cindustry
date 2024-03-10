@@ -36,6 +36,6 @@
 	{ "item": "copper", "amount": 60 },
 	{ "item": "铁", "amount": 40},
 	],
-	"category": "crafting",
-	"research": "基础大气分离机"
+	"category": "liquid",
+	"research": "石料粉碎机"
 }

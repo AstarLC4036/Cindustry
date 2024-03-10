@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "化学工业-柯伊伯亚",   
+    "description": "与其母星相同，柯伊伯亚也是一颗海洋星球，但与其母星不同的是它表面常年存在的风暴，其水下洋流也错综复杂，想要在这里立足可并不是一件容易的事情",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+	"size": 1
+    "research": {
+		"root":true,
+		"name": "柯伊伯亚"
+		"planet":"柯伊伯亚"
+		},
+}

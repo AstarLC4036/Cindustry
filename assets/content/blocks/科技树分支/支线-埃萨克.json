@@ -1,6 +1,6 @@
 {
     "type": "Wall",
-    "name": "化学工业-埃萨克",
+    "name": "化学工业-埃萨克",                "description": "一颗炙热的星球，地表布满了喷发着硫磺气体的气孔，我们的内星系监控卫星传回的分析数据告诉我们这颗熔岩星球并不寻常",
     "health": 0,
     "buildVisibility": "hidden",
     "alwaysUnlocked": true,

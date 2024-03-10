@@ -37,15 +37,23 @@
 			"height": 9,
 			"ammoMultiplier": 2,
 			"shootEffect": "shootBig"
-		},
+		},	
 		"lead": {
 			"speed": 8,
-			"damage": 13,
+			"damage": 12,	
+			"lifetime": 38,
+			"fragBullets": 3,
+			"reloadMultiplier": 1.1,
+		    
+		},
+		"metaglass": {
+			"speed": 8,
+			"damage": 17,
 			"fragBullets": 3,
 			"rangeChange":40,
 			"fragBullet": {
 				"speed": 4,
-				"damage": 8,
+				"damage": 10,
 				"lifetime": 32
 		},
 			"lifetime": 38,

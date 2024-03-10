@@ -1,0 +1,48 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "湿法冶钒炉",
+	  "description": "将钒矿石粉碎并与钠盐混合一同焙烧，向产物中加入水浸出后向浸出液加入硫酸铝和硫酸来去除硅，再向产物中加入硫酸铵以生成偏钒酸铵并将其加热分解得到五氧化二钒，最终通入氢气还原以得到单质钒，同时会有少量的硫化物产生",
+	"outputItem": {	
+	"item": "钒", "amount": 3
+	},
+	"itemCapacity": 20,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			"DrawFlame"
+		]
+	},
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+	"power": 4,	
+	"liquids":{
+	    "liquids":[
+	{ "liquid": "硫酸", "amount": 0.05 },
+	{ "liquid": "water", "amount": 0.15 }
+	{ "liquid": "氢气", "amount": 0.1 }
+	]  },	
+	"items": {
+		"items": [
+	{ "item": "盐", "amount": 2 },
+	{ "item": "矿物块", "amount": 3 },
+	]	
+	}	
+	},
+	"requirements": [
+	{ "item": "锌", "amount": 25 },
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 30 },
+	{ "item": "plastanium", "amount": 45 },
+	{ "item": "铝", "amount": 50 },
+	{ "item": "titanium", "amount": 60 },
+	],
+	"category": "crafting",
+	"research": "湿法冶锌炉"
+}

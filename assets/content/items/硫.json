@@ -7,7 +7,7 @@
 	"hardness":1,
 	"healthScaling": 0,
 	"radioactivity": 0,
-	"explosiveness": 0,
+	"explosiveness": 1,
 	"flammability": 2,
 	"research": "非金属"
 }

@@ -1,6 +1,5 @@
 {
 	"health":2220,
-	"details":"齐射用铅作为子弹防空效果不错，用钍非常nb，如果没有钍就用铁，伤害也不错，镓和氢氧化物是用来上效果打反应的"
 	"ammoTypes": {
 	    "氢氧化物": {
 			"speed": 13,
@@ -13,15 +12,37 @@
 			"ammoMultiplier": 3
 			"status": "碱性腐蚀",
 			"statusDuration": 600,
+	    }		   
+	    "硫": {
+			"speed": 13,
+			"damage": 17,
+			"lifetime": 15,
+			"reloadMultiplier": 1.2,
+			"width": 8,
+			"height": 13,	
+			"status": "burning",
+		    "statusDuration": 900,
+			"shootEffect": "shootBig",
+			"ammoMultiplier": 3
+			"status": "碱性腐蚀",
+			"statusDuration": 600,
+	    }	
+	    "lead": {
+			"speed": 13,
+			"width":8,
+			"height":13,
+			"damage": 10,	
+			"reloadMultiplier": 1.1,
+	       	"lifetime": 15,
 	    }
-	"lead": {
+	"metaglass": {
 			"speed": 13,
 			"width":8,
 			"height":13,
 			"damage": 10,
 			"fragBullets": 5,
 			"rangeChange":40,
-			"lifetime": 15,
+			"lifetime": 20,
 			"fragBullet": {
 				"speed": 4,
 				"damage": 6,

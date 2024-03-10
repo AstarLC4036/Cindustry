@@ -1,0 +1,20 @@
+{
+    "type": "CoreBlock",
+    "name":"初级强化核心",
+	"description": "一种可以适应高压强的核心，在七千米水下仍可以正常工作",
+	"itemCapacity": 3000,
+  "unitType":"蛰伏",
+	"health": 4500,
+	"size": 3,
+	"buildCostMultiplier":15,
+	"unitCapModifier":6,
+	"requirements": [
+		"钴/1000",
+		"锰/800",
+		"锗/300",
+	],
+	"category": "effect",
+	"research": "支线-萨伏伊尔"
+"alwaysUnlocked":true,//科技树默认解锁
+
+}

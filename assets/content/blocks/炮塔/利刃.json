@@ -75,13 +75,8 @@
 			"speed": 5.3,
 			"damage": 10,
 			"fragBullets": 3,
-			"rangeChange":40,
-			"lifetime": 24,
-			"fragBullet": {
-				"speed": 4,
-				"damage": 4,
-				"lifetime": 15
-		}
+			"lifetime": 24,		
+			"reloadMultiplier": 1.25,
 	},
 	},
 	"researchCostMultiplier": 0.5,

@@ -1,0 +1,30 @@
+{
+  "name": "水压钻头",
+  "description": "一种可以在水下工作的钻头，以深海强大的压力为动力源来推动钻头旋转",
+  "type": "Drill",
+  "size": 2,
+  "itemCapacity": 10,
+  "tier": 2,
+  "drillTime":240,
+  //值增加0.625时每秒减少0.01个物品,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.028,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "钴",
+      "amount": 12
+    },
+    {
+      "item": "锰",
+      "amount": 6
+    },
+  ],
+  "category": "production",
+  "research": "初级强化核心"
+}

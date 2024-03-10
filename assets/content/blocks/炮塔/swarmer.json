@@ -44,6 +44,25 @@
 			"hitEffect": "blastExplosion",
 			"status": "burning",
 			"statusDuration": 360
+		},		
+		"硫": {
+			"type": "MissileBulletType",
+			"frontColor": "f8ad42",
+			"backColor": "f68021",
+			"width": 7,
+			"height": 8,
+			"shrinkY": 0,
+			"homingPower": 0.08,
+			"makeFire": true,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 15,
+			"splashDamageRadius": 20,
+			"splashDamage": 50,
+			"ammoMultiplier": 5,
+			"hitEffect": "blastExplosion",
+			"status": "burning",
+			"statusDuration": 600
 		},
 		"surge-alloy": {
 			"type": "MissileBulletType",
@@ -64,13 +83,59 @@
 			"lightningDamage": 10,
 			"lightning": 2,
 			"lightningLength": 10
+		},	
+		"强化合金": {
+			"type": "MissileBulletType",
+			"backColor":"F2E770",
+			"frontColor":"FFFFFF",
+			"trailColor":"F2E770",
+			"width": 8,
+			"height": 8,
+			"shrinkY": 0,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 23,
+			"splashDamageRadius": 25,
+			"splashDamage": 45,
+			"ammoMultiplier": 4,
+			"status": "electrified",
+			"statusDuration": 300
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion",
+			"lightningDamage": 15,
+			"lightning": 7,
+			"lightningLength": 15
 		},
-		"穿甲导弹": {
-      "speed": 0,
-      "spawnUnit": "蜂群穿甲导弹",
-      "instantDisappear": true,
-      "reloadMultipler": 0.9,
-      "ammoMultiplier": 1
+		"plastanium": {		
+		    "type": "MissileBulletType",
+			"backColor": "d8d97f",
+			"frontColor": "fffac6",	
+			"trailColor":"fffac6",
+			"status": "blasted",
+			"statusDuration": 60,
+			"width": 8,
+			"height": 8,
+			"shrinkY": 0,
+			"speed": 3.7,
+			"lifetime": 70.27,
+			"damage": 20,
+			"splashDamageRadius": 25,
+			"splashDamage": 35,	
+			"despawnEffect": "blastExplosion",
+			"fragBullets": 5,
+			"fragBullet": {
+				"despawnEffect": "none",
+				"width": 10,
+				"height": 12,
+				"shrinkY": 1,
+				"damage": 14,
+				"lifetime": 15,
+				"backColor": "d8d97f",
+				"frontColor": "fffac6",
+				"speed": 2.5
+			},
+			"explodeRange": 20,
+			"collidesGround": true
 		},
 	}
 }

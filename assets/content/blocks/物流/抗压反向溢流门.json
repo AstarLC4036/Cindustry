@@ -1,0 +1,24 @@
+{
+"name":"抗压反向溢流门"
+	"type": "OverflowGate",
+	"health": 10,
+	"size": 1,
+	"speed": 0.09
+	"speedBoost": 0.18,
+	"invert":true,
+    "requirements": [
+        "钴/4",
+	    "锰/2",
+		],
+		"research": {
+		"parent": "抗压溢流门",
+		"requirements":[
+		    "钴/40",
+		    "锰/20"
+		    ]
+		},
+	"category": "distribution",
+	"research": "抗压溢流门"
+	"researchCostMultiplier": 0.2,
+	    "canOverdrive": true,
+}

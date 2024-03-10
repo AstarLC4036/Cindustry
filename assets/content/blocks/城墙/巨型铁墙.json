@@ -3,6 +3,7 @@
   "description": "生命值比大型铁墙更多，相应的占地面积也更大。",
   "type": "Wall",
   "health": 5600,
+  "armor":19,
   "size": 3,
   "requirements": [
     {

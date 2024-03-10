@@ -3,7 +3,7 @@
 	"name": "汞提炼器",
 	"description": "将含汞硫化物与氧化物混合加热以还原硫化物中的汞",
 	"health": 360,
-	"outputLiquid": {"liquid": "汞", "amount": 0.05},
+	"outputLiquid": {"liquid": "汞", "amount": 0.1},
 	"itemCapacity": 14,
 	"size": 2,
 	"drawer": {
@@ -19,7 +19,7 @@
 	"outputsLiquid": true,
 	"hasPower": true,
 	"liquidCapacity": 60,
-	"craftTime": 60,
+	"craftTime": 90,
 	"consumes": {
 	"power": 3,
 	"items": {
@@ -36,5 +36,5 @@
 	{ "item": "plastanium", "amount": 15 }
 	],
 	"category": "crafting",
-	"research": "基础大气分离机"
+	"research": "石料煅烧工厂"
 }

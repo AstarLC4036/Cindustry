@@ -1,0 +1,16 @@
+{
+"name":"抗压分类器"
+	"type": "Sorter",
+	"health": 120,
+	"size": 1,
+	"speed": 0.09
+	"speedBoost": 0.18,
+	"requirements": [
+		{ "item": "锰", "amount": 2 },
+		{ "item": "钴", "amount": 2 },
+	],
+	"category": "distribution",
+	"research": "抗压路由器"
+	"researchCostMultiplier": 0.2,
+	    "canOverdrive": false,
+}

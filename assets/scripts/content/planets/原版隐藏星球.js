@@ -2,7 +2,8 @@ Planets.tantros.visible = true;//可见
 Planets.tantros.accessible = true;
 //在行星菜单可见
 Planets.tantros.localizedName = "萨伏伊尔"; //名字
-Planets.tantros.alwaysUnlocked = true;//解锁
+Planets.tantros.alwaysUnlocked = true;
+Planets.tantros.hiddenItems.add(Items.serpuloItems).add(Items.erekirItems);/** 隐藏物品  *///解锁
 Planets.notva.visible = true;//可见
 Planets.notva.drawOrbit = true, 
 Planets.notva.accessible = true;//在行星菜单可见

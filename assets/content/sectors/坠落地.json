@@ -1,0 +1,12 @@
+{"localizedName": "坠落地",
+"name": "坠落地",
+	"description": "我们的舰队受到了来自该地区的高能激光打击，逃生舱坠落到这里，这里虽然没有敌军核心的活动信号，但是却能侦测到大量的建筑，切记注意隐秘行事",
+	//"details":"",
+    "planet":"塞德娜"//母星名字。
+    "sector":15//区块坐标   
+    "captureWave":20//胜利波次
+    "difficulty":2//难度
+    "alwaysUnlocked": true,
+    "research":"支线-塞德娜"
+	
+}

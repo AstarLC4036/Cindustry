@@ -1,0 +1,16 @@
+{
+"type":"Junction",
+"name":"抗压交叉器",
+"description":"可让两条管道互不干扰的通过相交区域",
+"health":80,
+"size":1,
+"requirements":
+[
+{"item":"钴","amount":2},
+]
+"category":"distribution",
+"research":"抗压物品管道",
+"speed":30,
+"capacity":4,
+"buildCostMultiplier":6
+}

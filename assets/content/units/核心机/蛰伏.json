@@ -1,0 +1,83 @@
+{
+"type":"payload"
+"name":"蛰伏",
+"drag": 0.05,
+"accel": 0.1,
+"rotateSpeed": 4,
+"payloadCapacity": 394,
+"description":"初级强化核心的建造无人机，搭载有鱼雷，可以挖掘一些较低硬度的矿物",
+"controller":"BuilderAI"	
+"faceTarget": true,
+"drawMinimap": false,
+"isCounted":false,
+"flying":true,
+"lowAltitude":true
+"hovering":false
+"circleTarget":true
+"mineTier":3
+"mineSpeed":7
+"itemCapacity":10
+"buildSpeed":0.4
+"speed":3
+"hitSize":8
+"health": 170,
+"armor":0
+"commandLimit":10	
+"weapons": [
+{
+			"name": "蛰伏1",
+			"mirror": false,
+			"reload": 33,
+			"x": 0,
+			"y": 5,
+			"top":false
+			"shoot": {
+				"shotDelay": 8,
+				"shots": 2
+			},
+			"shootCone": 30,
+			"shootSound": "mineDeploy",
+			"rotate": false,
+			"bullet": {
+			"type": "BasicBulletType",
+				"damage": 8,
+				"splashDamageRadius": 35,
+				"splashDamage": 17,
+				"buildingDamageMultiplier": 0.01,				
+				"lifetime": 60,
+				"weaveMag": 5,
+				"weaveScale": 4,
+				"homingRange": 250,
+				"homingDelay": 8,
+				"homingPower": 0.05,
+				"shootEffect": "none",
+				"smokeEffect": "none",
+				"hitSound": "plasmaboom",
+				"hitEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						"blastExplosion",
+						"greenCloud"
+					]
+				},
+				"despawnEffect": "none",
+				"sprite": "mine-bullet",
+				"healPercent": 4,
+				"trailLength": 8,
+				"trailWidth": 3,
+				"trailColor": "76D081",
+				"backColor": "76D081",
+				"frontColor": "ffffff",
+				"trailRotation": true,
+				"hitSize": 22,
+				"shrinkX": 0,
+				"shrinkY": 0,
+				"maxRange": 86,
+				"width": 10,
+				"height": 10,
+				"speed": 5,
+				"lifetime": 30
+			}
+		}
+		]
+}

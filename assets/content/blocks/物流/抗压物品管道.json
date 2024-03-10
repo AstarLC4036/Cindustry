@@ -1,0 +1,15 @@
+{
+    "name":"抗压物品管道",
+    "type":"Duct",
+    "description":"可以安全的在水下运输物品"
+    "health":100,
+    "armor":1,
+    "size":1,
+    "speed":2.5,
+    "itemCapacity":1,
+    "category": "distribution",
+    "requirements": [
+        "钴/1",
+		],
+"research":"初级强化核心"
+}

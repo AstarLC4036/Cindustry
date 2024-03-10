@@ -4,7 +4,7 @@
 	 "description": "将煤炭与矿物块中的含硫矿物一同焙烧来提炼单质硫",
 	"name": "硫磺提炼工厂",
 	"outputItem": {
-	"item": "硫", "amount": 2 
+	"item": "硫", "amount": 2
 	},
 
 	"itemCapacity": 20,
@@ -35,5 +35,5 @@
 	{ "item": "silicon", "amount": 30 },
 	],
 	"category": "crafting",
-	"research": "炼铁高炉"
+	"research": "石料粉碎机"
 }

@@ -4,7 +4,7 @@
   "description": "将碳粉与钨粉混合并高温加热以生产碳化物",
   "size": 3,
   "category": "crafting",
-  "research": "塑钢重压机",
+  "research": "聚合反应室",
   "requirements": [
     "钨/120",
     "titanium/20",

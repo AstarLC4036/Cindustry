@@ -1,6 +1,8 @@
 {
 "type":"payload"
 "name":"沉睡",	
+"drag": 0.05,
+"accel": 0.1,
 "fogRadius":0,//迷雾揭示范围
 "targetable":false,//可被选为目标
 "hittable":false,//可被击中

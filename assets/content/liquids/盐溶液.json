@@ -5,7 +5,7 @@
 	"color": "9A9A9A",  
 	"flammability": 0,
 	"temperature": 0,
-	"heatCapacity": 0.1,
+	"heatCapacity": 0.6,
 	"viscosity": 0,
 	"explosiveness": 0,
 	"research": "液体"

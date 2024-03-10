@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"name": "污水絮凝池",
+	"health": 240,
+	"description": "将污水中的杂质絮凝成块并沉淀后通过活性炭进行吸附与过滤 会产生少量污泥（废料） 污泥积满时无法工作",
+	"outputItem": {
+	"item": "scrap", "amount": 1
+	},
+	"outputLiquid": {"liquid": "water", "amount": 0.4}, 
+	"itemCapacity": 20,
+	"size": 2,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-b"
+		},
+		{
+		"type":"DrawLiquidTile",
+		"drawLiquid":"water"
+		},
+		"DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"liquidCapacity": 80,
+	"craftTime": 160,
+	"consumes": {
+	"liquid": 
+	{"liquid": "污水", "amount": 0.4 }
+		},
+	"requirements": [
+	{ "item": "metaglass", "amount": 50 },
+	{ "item": "graphite", "amount": 60 },
+	{ "item": "盐", "amount": 10},
+	{ "item": "lead", "amount": 10},
+	],
+	"category": "liquid",
+	"research": "污水过滤器"
+}

@@ -4,13 +4,13 @@
 	"description": "被孢子污染的水 大部分情况下需要净化后才能使用 对于一些培养机来说这些液体或许能够提升它们的生产效率\n[red]注意！孢子具有极强的侵略性 不亚于埃里克尔的瘤液！不要让它泄露！",
 	"alwaysUnlocked":false,
 	"color": "b287ec2e",  
-	"flammability": 0,
-	"temperature": 0,
+	"heatCapacity":0.4,
+	"flammability": 0.3,
+	"temperature": 0.5,
 	"moveThroughBlocks":true,
 	"spreadTarget":"water",
 	"blockReactive":true,
-	"heatCapacity": 0,
-	"viscosity": 0.5,
+	"viscosity": 0.67,
 	"explosiveness": 0,
 	"research": "液体"
 }

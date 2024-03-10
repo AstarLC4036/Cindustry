@@ -1,0 +1,17 @@
+{
+  "type": "PayloadMassDriver",
+  "name": "载荷驱动器",
+  "description": "用于运输载荷,为了还原被臭猫移除的S星载荷部分，因此我复刻了这东西",
+  "size": 3,
+  "reload": 130,
+  "chargeTime": 80,
+  "range": 700,
+  "maxPayloadSize": 2.5,
+  "hasPower": true,  
+  "buildVisibility": "hidden",
+  "consumes": {
+    "power": 0.5
+  },
+  "category": "units",
+  "requirements": ["graphite/50", "silicon/120", "titanium/120"]
+}

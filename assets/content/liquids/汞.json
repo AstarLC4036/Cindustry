@@ -3,7 +3,7 @@
 	"description": "常用于生产雷酸汞等烈性炸药以及作为催化剂",
 	"alwaysUnlocked":false,
 	"color": "9A9A9A",  
-	"flammability": 0,
+	"flammability": 0.3,
 	"temperature": 0,
 	"heatCapacity": 0,
 	"viscosity": 0,

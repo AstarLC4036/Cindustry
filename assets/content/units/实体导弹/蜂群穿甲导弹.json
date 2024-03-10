@@ -18,9 +18,8 @@
 		
 		"bullet":{
 		"type": "ExplosionBulletType",
-		"splashDamage": 50,
-
-		"splashDamageRadius": 25
+		"splashDamage": 30,
+		"splashDamageRadius": 2
 		"buildingDamageMultiplier": 0.5,
 		"shootEffect": {
 					"type": "MultiEffect",

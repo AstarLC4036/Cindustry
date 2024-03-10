@@ -31,11 +31,11 @@
 			"shootSound": "shootBig",
 			"alternate": false,
 			"bullet": {
-			    "damage": 3,"buildingDamageMultiplier": 1.7,
+			    "damage": 3,
+			    "buildingDamageMultiplier": 1.7,
 			    "splashDamageRadius": 30,
 		        "splashDamage": 30,
 				"speed": 9,
-				"buildingDamageMultiplier": 0.8,
 				"lifetime": 18,
 				"width": 8,
 				"height": 10

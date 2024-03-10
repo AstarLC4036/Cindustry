@@ -1,0 +1,17 @@
+{
+	"category": "distribution",
+	"type": "ItemBridge",
+	"name":"抗压物品管道桥",
+	"requirements": [
+		{ "amount": 6, "item": "钴" },
+		{ "amount": 6, "item": "锰" },
+	],
+	"range":9,
+	"canOverdrive":true,
+	"hasPower": false,
+	"health":300,
+	"itemCapacity":60
+	"placeableLiquid":true
+	"speed":1,
+	"research":"抗压路由器"
+}

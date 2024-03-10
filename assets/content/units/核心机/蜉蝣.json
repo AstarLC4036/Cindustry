@@ -1,6 +1,8 @@
 {
 "type":"payload"
 "name":"蜉蝣",
+"drag": 0.05,
+"accel": 0.1,
 "rotateSpeed": 4,
 "payloadCapacity": 66,
 //此值增加1时增加0.01526格载荷容量

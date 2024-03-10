@@ -1,10 +1,10 @@
 {
 	"type": "GenericCrafter",
 	"health": 300,
-	 "description": "将水加热蒸干以制取少量盐",
-	"name": "海水淡化制盐工厂",
+	 "description": "将水加热蒸干以得到其中的盐",
+	"name": "蒸发制盐工厂",
 	"outputItem": {
-	"item": "盐", "amount": 1
+	"item": "盐", "amount": 2
 	},
 	"itemCapacity": 20,
 	"size": 3,
@@ -52,12 +52,12 @@
 	"power": 4,    
 	"liquids":{
 	    "liquids":[
-	{ "liquid": "water", "amount": 0.4 }     ]  },	},
+	{ "liquid": "water", "amount": 0.25 }     ]  },	},
 	"requirements": [
 	{ "item": "lead", "amount": 90 },
 	{ "item": "graphite", "amount": 60 },
 	{ "item": "metaglass", "amount": 30 },	    { "item": "silicon", "amount": 70 },
 	],
 	"category": "crafting",
-	"research": "基础大气分离机"
+	"research": "石料粉碎机"
 }

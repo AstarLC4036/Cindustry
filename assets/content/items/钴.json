@@ -4,7 +4,7 @@
 	"cost":1,
 	"color": "FFFAC7",
 	"alwaysUnlocked":false,   
-	"hardness":3,
+	"hardness":1,
 	"healthScaling": 0,
 	"radioactivity": 0,
 	"explosiveness": 0,

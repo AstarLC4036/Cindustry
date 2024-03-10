@@ -1,0 +1,12 @@
+{
+	"name": "测试液",
+	"description": "一种违反了物理定律的无限热容量液体，仅限沙盒",
+	"alwaysUnlocked":false,
+	"color": "F6DAFF",  
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 2100000,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"effect":"freezing",
+}

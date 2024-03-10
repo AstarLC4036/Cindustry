@@ -1,62 +1,61 @@
 {
   "type": "ConsumeGenerator",
   "name": "塔式熔盐光热电站",
-  "description": "用多面镜子将光反射到塔顶的熔盐储热器中，使用光能加热盐使其融化，利用其产生的热量加热水使其变成水蒸气进而推动汽轮机，熔融盐可以储存大量热量，这使其在夜间也能产出大量电力，内部安装水循环装置，只需要通入一次水就能持续运转，该装置耗盐量大且区域性强，并不建议将其作为主力发电设施",
+  "description": "用多面镜子将光反射到塔顶的熔盐储热器中，使用光能加热盐使其融化，利用其产生的热量加热水使其变成水蒸气进而推动汽轮机，熔融盐可以储存大量热量，这使其在夜间也能产出大量电力，该装置耗盐量大且区域性强，并不建议将其作为主力发电设施",
   "size": 7,  
   "outputLiquid": "water/0.2",
-  "itemCapacity": 20,
-  "craftTime": 240,
+  "itemCapacity": 40,
   "hasPower": true,
   "hasItems": true,
-  "itemDuration": 90,
-  "powerProduction": 50,
+  "itemDuration": 240,
+  "powerProduction": 65,
   "consumes": {   
     "liquid": "water/0.2",
     "items": {
       "items": [
         {
           "item": "盐",
-          "amount": 20
+          "amount": 15
         }
       ]
     }
   },  
   "drawer": {
     "type": "DrawMulti",
-    "drawers": [
-      {
-        "type": "DrawRegion",
-        "suffix": "-b"
-      },
-      {
-        "type": "DrawDefault"    
-          
-      },  
-      {
-        "type": "DrawHeatOutput"
-      },
+    "drawers": [	
+        {
+				"type": "DrawRegion",
+				"suffix": "-b"
+		},
+        {
+        "type": "DrawGlowRegion",
+        "alpha": 0.7,
+        "color": "ffdaaf",
+        "glowIntensity": 0.3,
+        "glowScale": 6
+        }
     ]
   },
   "requirements": [
     {
       "item": "铝",
-      "amount": 100
-    },
-    {
-      "item": "钨",
-      "amount": 300
-    },
-    {
-      "item": "silicon",
-      "amount": 120
-    },
-    {
-      "item": "titanium",
       "amount": 200
     },
     {
-      "item": "砷",
-      "amount": 50
+      "item": "surge-alloy",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 200
+    },
+    {
+      "item": "titanium",
+      "amount": 300
+    },
+    {
+      "item": "钨",
+      "amount": 100
     }
   ],
   "category": "power",

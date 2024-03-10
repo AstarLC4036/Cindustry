@@ -1,6 +1,7 @@
 {
     "type": "Wall",
-    "name": "化学工业-塞德娜",
+    "name": "化学工业-塞德娜",   
+    "description": "一颗看起来十分干燥的星球，貌似并没有其孢子生命活动的痕迹，或许是个度假的好地方……？",
     "health": 0,
     "buildVisibility": "hidden",
     "alwaysUnlocked": true,
