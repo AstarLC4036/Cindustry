@@ -6,6 +6,7 @@ import arc.util.Strings;
 import mindustry.Vars;
 import mindustry.gen.Building;
 import mindustry.graphics.Pal;
+import mindustry.graphics.Drawf;
 import mindustry.ui.Bar;
 import mindustry.world.blocks.power.PowerGenerator;
 
@@ -27,6 +28,13 @@ public class SolarTower extends PowerGenerator {
                 () -> Pal.items,
                 () -> ((SolarTowerBuild)entity).connectedCount / (float)maxConnectCount
         ));
+    }
+
+    @Override
+    public void drawPlace(int x, int y, int rotation, boolean valid)
+    {
+        super.drawPlace(x, y, rotation, valid);
+        Drawf.dashRect(team.color, x - searchRange, y - searchRange, 2 * searchRange, 2 * searchRange);
     }
 
     public class SolarTowerBuild extends GeneratorBuild
@@ -68,6 +76,12 @@ public class SolarTower extends PowerGenerator {
             }
 
             updateTileTimer = 0;
+        }
+
+        @Override
+        public void drawSelect()
+        {
+            Drawf.dashRect(team.color, tileX() - searchRange, tileY() - searchRange, 2 * searchRange, 2 * searchRange);
         }
     }
 }
