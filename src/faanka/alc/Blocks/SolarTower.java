@@ -34,7 +34,7 @@ public class SolarTower extends PowerGenerator {
     public void drawPlace(int x, int y, int rotation, boolean valid)
     {
         super.drawPlace(x, y, rotation, valid);
-        Drawf.dashSquare(Pal.placing, (x + 0.5 * size) * Vars.tilesize, (y + 0.5 * size) * Vars.tilesize, 2 * (searchRange + 0.5 * size) * Vars.tilesize);
+        Drawf.dashSquare(Pal.placing, (x + 0.5f * size) * Vars.tilesize, (y + 0.5f * size) * Vars.tilesize, 2 * (searchRange + 0.5f * size) * Vars.tilesize);
     }
 
     public class SolarTowerBuild extends GeneratorBuild
@@ -81,7 +81,7 @@ public class SolarTower extends PowerGenerator {
         @Override
         public void drawSelect()
         {
-            Drawf.dashSquare(team.color, (tileX() + 0.5 * size) * Vars.tilesize, (tileY() + 0.5 * size) * Vars.tilesize, 2 * (searchRange + 0.5 * size) * Vars.tilesize);
+            Drawf.dashSquare(team.color, (tileX() + 0.5f * size) * Vars.tilesize, (tileY() + 0.5f * size) * Vars.tilesize, 2 * (searchRange + 0.5f * size) * Vars.tilesize);
         }
     }
 }
