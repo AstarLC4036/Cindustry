@@ -3,6 +3,8 @@ package faanka.alc.Blocks;
 import arc.util.Log;
 import mindustry.gen.Building;
 import mindustry.world.blocks.power.PowerBlock;
+import mindustry.Vars;
+import mindustry.graphics.Drawf;
 
 public class SolarNode extends PowerBlock {
     public SolarNode(String name)
@@ -34,6 +36,15 @@ public class SolarNode extends PowerBlock {
                 connectedTowerBuild.connectedCount -= 1;
                 connectedTowerBuild.needUpdate = true;
                 connectedTowerBuild = null;
+            }
+        }
+
+        @Override
+        public void drawSelect()
+        {
+            if(connectedTowerBuild != null)
+            {
+                Drawf.dashLine(team.color, tileX() * Vars.tilesize, tileY() * Vars.tilesize, (connectedTowerBuild.tileX() + ((SolarTower)connectedTowerBuild.block).size * 0.25f) * Vars.tilesize, (connectedTowerBuild.tileY() + ((SolarTower)connectedTowerBuild.block).size * 0.25f) * Vars.tilesize);
             }
         }
     }
