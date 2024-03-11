@@ -10,7 +10,7 @@ import mindustry.world.blocks.power.PowerBlock;
 
 public class CCBlocks {
     //Power blocks
-    public static PowerBlock mirrorNode, solarTower;
+    public static Block mirrorNode, solarTower;
 
     public static void load()
     {
