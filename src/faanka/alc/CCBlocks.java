@@ -17,14 +17,18 @@ public class CCBlocks {
         mirrorNode = new SolarNode("mirror-node"){{
             requirements(Category.power, ItemStack.with(Items.copper, 1));
             size = 1;
+            localizedName = "Solar Node";
         }};
 
         solarTower = new SolarTower("mirror-tower"){{
             requirements(Category.power, ItemStack.with(Items.copper, 1));
             size = 2;
-            powerProduction = 100;
+            outputsPower = true;
+            hasPower = true;
+            powerProduction = 720;
             maxConnectCount = 10;
             searchRange = 4;
+            localizedName = "Solar Tower";
         }};
     }
 }

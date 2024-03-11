@@ -1,14 +1,16 @@
 package faanka.alc.Blocks;
 
+import arc.Core;
 import arc.util.Log;
-import arc.util.Time;
+import arc.util.Strings;
 import mindustry.Vars;
 import mindustry.gen.Building;
+import mindustry.graphics.Pal;
+import mindustry.ui.Bar;
 import mindustry.world.blocks.power.PowerGenerator;
 
 public class SolarTower extends PowerGenerator {
     public int maxConnectCount = 0;
-    public int connectedCount = 0;
     public int searchRange = 0;
 
     public SolarTower(String name)
@@ -17,60 +19,48 @@ public class SolarTower extends PowerGenerator {
         this.buildType = SolarTowerBuild::new;
     }
 
+    @Override
+    public void setBars() {
+        super.setBars();
+        addBar("connected-nodes", entity -> new Bar(() ->
+                Core.bundle.format("bar.connectednodes", ((SolarTowerBuild)entity).connectedCount, maxConnectCount),
+                () -> Pal.items,
+                () -> ((SolarTowerBuild)entity).connectedCount / (float)maxConnectCount
+        ));
+    }
+
     public class SolarTowerBuild extends GeneratorBuild
     {
-        private boolean needUpdate = false;
+        public boolean needUpdate = false;
         private float updateTileTimer = 0;
-
-        @Override
-        public void placed()
-        {
-            Log.info("placed");
-            Log.info(tileX() + " " + tileY());
-            for (int dx = -searchRange; dx < searchRange; dx++) {
-                for (int dy = -searchRange; dx < searchRange; dy++) {
-                    Building build = Vars.world.build(tileX() + dx, tileY() + dy);
-                    if ((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode) build.block).connectedTower == null) {
-                        Log.info("Detected a new avalible node.");
-                        SolarNode.SolarNodeBuild validBuild = (SolarNode.SolarNodeBuild) build;
-                        connectedCount += 1;
-                        ((SolarNode) validBuild.block).connectedTower = SolarTower.this;
-
-                        needUpdate = true;
-                    }
-                }
-            }
-        }
+        public int connectedCount = 0;
 
         @Override
         public void updateTile()
         {
             if(needUpdate)
             {
-                powerProduction *= connectedCount;
+                productionEfficiency = (float) connectedCount / maxConnectCount;
                 needUpdate = false;
             }
 
-            /*
             updateTileTimer += 1;
 
-            if(updateTileTimer < 10 * 60)
+            if(updateTileTimer < 60)
             {
                 return;
             }
 
-            Log.info("update once");
             for (int dx = -searchRange; dx < searchRange; dx++)
             {
-                for(int dy = -searchRange; dx < searchRange; dy++)
+                for(int dy = -searchRange; dy < searchRange; dy++)
                 {
                     Building build = Vars.world.build(tileX() + dx, tileY() + dy);
-                    if((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode) build.block).connectedTower == null)
+                    if((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode.SolarNodeBuild)build).connectedTowerBuild == null)
                     {
-                        Log.info("Detected a new avalible node.");
-                        SolarNode.SolarNodeBuild validBuild = (SolarNode.SolarNodeBuild)build;
                         connectedCount += 1;
-                        ((SolarNode)validBuild.block).connectedTower = SolarTower.this;
+                        SolarNode.SolarNodeBuild validBuild = (SolarNode.SolarNodeBuild)build;
+                        validBuild.connectedTowerBuild = this;
 
                         needUpdate = true;
                     }
@@ -78,7 +68,6 @@ public class SolarTower extends PowerGenerator {
             }
 
             updateTileTimer = 0;
-            */
         }
     }
 }

@@ -1,10 +1,10 @@
 package faanka.alc.Blocks;
 
+import arc.util.Log;
 import mindustry.gen.Building;
 import mindustry.world.blocks.power.PowerBlock;
 
 public class SolarNode extends PowerBlock {
-    public SolarTower connectedTower = null;
     public SolarNode(String name)
     {
         super(name);
@@ -12,6 +12,8 @@ public class SolarNode extends PowerBlock {
     }
 
     public class SolarNodeBuild extends Building {
+        public SolarTower.SolarTowerBuild connectedTowerBuild = null;
+
         @Override
         public void created()
         {
@@ -25,12 +27,13 @@ public class SolarNode extends PowerBlock {
         }
 
         @Override
-        public void onDestroyed()
+        public void remove()
         {
-            if(connectedTower != null)
+            if(connectedTowerBuild != null)
             {
-                connectedTower.connectedCount -= 1;
-                connectedTower = null;
+                connectedTowerBuild.connectedCount -= 1;
+                connectedTowerBuild.needUpdate = true;
+                connectedTowerBuild = null;
             }
         }
     }
