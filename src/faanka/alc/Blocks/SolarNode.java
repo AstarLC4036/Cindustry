@@ -2,9 +2,9 @@ package faanka.alc.Blocks;
 
 import arc.util.Log;
 import mindustry.gen.Building;
-import mindustry.world.Block;
+import mindustry.world.blocks.power.PowerBlock;
 
-public class SolarNode extends Block {
+public class SolarNode extends PowerBlock {
     public SolarNode(String name)
     {
         super(name);
