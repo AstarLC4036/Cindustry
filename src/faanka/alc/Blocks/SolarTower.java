@@ -34,7 +34,7 @@ public class SolarTower extends PowerGenerator {
     public void drawPlace(int x, int y, int rotation, boolean valid)
     {
         super.drawPlace(x, y, rotation, valid);
-        Drawf.dashRect(team.color, x - searchRange, y - searchRange, 2 * searchRange, 2 * searchRange);
+        Drawf.dashRect(Pal.placing, x - searchRange, y - searchRange, 2 * searchRange, 2 * searchRange);
     }
 
     public class SolarTowerBuild extends GeneratorBuild
