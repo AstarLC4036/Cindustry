@@ -34,7 +34,7 @@ public class SolarTower extends PowerGenerator {
     public void drawPlace(int x, int y, int rotation, boolean valid)
     {
         super.drawPlace(x, y, rotation, valid);
-        Drawf.dashSquare(Pal.placing, x * Vars.tilesize, y * Vars.tilesize, 2 * searchRange * Vars.tilesize);
+        Drawf.dashSquare(Pal.placing, (x + 0.5 * size) * Vars.tilesize, (y + 0.5 * size) * Vars.tilesize, 2 * (searchRange + 0.5 * size) * Vars.tilesize);
     }
 
     public class SolarTowerBuild extends GeneratorBuild
@@ -59,9 +59,9 @@ public class SolarTower extends PowerGenerator {
                 return;
             }
 
-            for (int dx = -searchRange; dx < searchRange; dx++)
+            for (int dx = -searchRange; dx < searchRange + size; dx++)
             {
-                for(int dy = -searchRange; dy < searchRange; dy++)
+                for(int dy = -searchRange; dy < searchRange + size; dy++)
                 {
                     Building build = Vars.world.build(tileX() + dx, tileY() + dy);
                     if((build instanceof SolarNode.SolarNodeBuild) && connectedCount < maxConnectCount && ((SolarNode.SolarNodeBuild)build).connectedTowerBuild == null)
@@ -81,7 +81,7 @@ public class SolarTower extends PowerGenerator {
         @Override
         public void drawSelect()
         {
-            Drawf.dashSquare(team.color, tileX() * Vars.tilesize, tileY() * Vars.tilesize, 2 * searchRange * Vars.tilesize);
+            Drawf.dashSquare(team.color, (tileX() + 0.5 * size) * Vars.tilesize, (tileY() + 0.5 * size) * Vars.tilesize, 2 * (searchRange + 0.5 * size) * Vars.tilesize);
         }
     }
 }
