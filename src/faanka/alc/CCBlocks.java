@@ -37,5 +37,6 @@ public class CCBlocks {
     public static void loadClassMap()
     {
         ClassMap.classes.put("SolarTower", fannka.alc.Blocks.SolarTower.class);
+        ClassMap.classes.put("SolarNode", fannka.alc.Blocks.SolarNode.class);
     }
 }
