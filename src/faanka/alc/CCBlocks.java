@@ -1,7 +1,7 @@
 package faanka.alc;
 
-import faanka.alc.Blocks.SolarNode;
-import faanka.alc.Blocks.SolarTower;
+import faanka.alc.blocks.SolarNode;
+import faanka.alc.blocks.SolarTower;
 import mindustry.content.Items;
 import mindustry.type.Category;
 import mindustry.type.ItemStack;
@@ -36,7 +36,7 @@ public class CCBlocks {
 
     public static void loadClassMap()
     {
-        ClassMap.classes.put("SolarTower", fannka.alc.Blocks.SolarTower.class);
-        ClassMap.classes.put("SolarNode", fannka.alc.Blocks.SolarNode.class);
+        ClassMap.classes.put("SolarTower", faanka.alc.Blocks.SolarTower.class);
+        ClassMap.classes.put("SolarNode", faanka.alc.Blocks.SolarNode.class);
     }
 }
