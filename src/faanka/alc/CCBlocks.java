@@ -7,6 +7,7 @@ import mindustry.type.Category;
 import mindustry.type.ItemStack;
 import mindustry.world.Block;
 import mindustry.world.blocks.power.PowerBlock;
+import mindustry.mod.ClassMap;
 
 public class CCBlocks {
     //Power blocks
@@ -14,6 +15,7 @@ public class CCBlocks {
 
     public static void load()
     {
+        loadClassMap();
         mirrorNode = new SolarNode("mirror-node"){{
             requirements(Category.power, ItemStack.with(Items.copper, 1));
             size = 1;
@@ -30,5 +32,10 @@ public class CCBlocks {
             searchRange = 4;
             localizedName = "Solar Tower";
         }};
+    }
+
+    public static void loadClassMap()
+    {
+        ClassMap.classes.put("SolarTower", fannka.alc.Blocks.SolarTower.class);
     }
 }
