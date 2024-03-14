@@ -17,7 +17,7 @@ public class CCBlocks {
     {
         loadClassMap();
         mirrorNode = new SolarNode("mirror-node"){{
-            requirements(Category.power, ItemStack.with(Items.metaglass, 150, Items.titanium, 100, Items.silicon, 100);
+            requirements(Category.power, ItemStack.with(Items.metaglass, 150, Items.titanium, 100, Items.silicon, 100));
             size = 1;
             localizedName = "Solar Node";
         }};
