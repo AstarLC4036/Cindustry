@@ -17,13 +17,13 @@ public class CCBlocks {
     {
         loadClassMap();
         mirrorNode = new SolarNode("mirror-node"){{
-            requirements(Category.power, ItemStack.with(Items.metaglass, 150), ItemStack.with(Items.titanium, 100), ItemStack.with(Items.silicon, 100));
+            requirements(Category.power, ItemStack.with(Items.metaglass, 150, Items.titanium, 100, Items.silicon, 100);
             size = 1;
             localizedName = "Solar Node";
         }};
 
         solarTower = new SolarTower("mirror-tower"){{
-            requirements(Category.power, ItemStack.with(Items.metaglass, 250), ItemStack.with(Items.silicon, 150), ItemStack.with(Items.surgeAlloy, 50), ItemStack.with(Items.plastanium, 75), ItemStack.with(Items.graphite, 120));
+            requirements(Category.power, ItemStack.with(Items.metaglass, 250, Items.silicon, 150, Items.surgeAlloy, 50, Items.plastanium, 75, Items.graphite, 120));
             size = 2;
             outputsPower = true;
             hasPower = true;
