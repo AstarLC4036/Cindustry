@@ -1,4 +1,4 @@
-package faanka.alc.Blocks;
+package faanka.alc.blocks;
 
 import arc.Core;
 import arc.util.Log;
